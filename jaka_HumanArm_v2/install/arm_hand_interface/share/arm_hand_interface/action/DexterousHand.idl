@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from arm_hand_interface/action/DexterousHand.action
+// generated code does not contain a copyright notice
+
+
+module arm_hand_interface {
+  module action {
+    typedef int32 int32__2[2];
+    @verbatim (language="comment", text=
+      "Arm_vision_planning.action 内容" "\n"
+      " 请求数据，视觉系统->机械臂系统" "\n"
+      " 视觉系统是client, 机械臂是server")
+    struct DexterousHand_Goal {
+      @verbatim (language="comment", text=
+        "hand_no=1, 表示左手；hand_no=2, 表示右手")
+      int32 hand_no;
+
+      @verbatim (language="comment", text=
+        "hand[0]: 取还是放的动作，0： 拾取，1：放。              hand[1]:动作序列编号")
+      int32__2 hand;
+    };
+    typedef float float__6[6];
+    @verbatim (language="comment", text=
+      "结果反馈，机械臂系统->视觉系统")
+    struct DexterousHand_Result {
+      @verbatim (language="comment", text=
+        "hand_no=1, 表示左手；hand_no=2, 表示右手")
+      int32 hand_no;
+
+      @verbatim (language="comment", text=
+        "int32      command_no                        # 当前指令的编号，从1开始。代表第几条指令" "\n"
+        "手的6自由度关节实际角度")
+      float__6 hand_pose;
+
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "error_info if success is false else is empty")
+      string info;
+    };
+    typedef float float__6[6];
+    @verbatim (language="comment", text=
+      "过程反馈，机械臂系统->视觉系统")
+    struct DexterousHand_Feedback {
+      @verbatim (language="comment", text=
+        "hand_no=1, 表示左手；hand_no=2, 表示右手")
+      int32 hand_no;
+
+      @verbatim (language="comment", text=
+        "int32      command_no                        # 当前指令的编号，从1开始。代表第几条指令" "\n"
+        " 手的6自由度关节实际角度")
+      float__6 hand_pose;
+    };
+  };
+};

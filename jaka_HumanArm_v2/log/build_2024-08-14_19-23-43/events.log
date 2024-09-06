@@ -1,0 +1,667 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (-) JobUnselected: {'identifier': 'arm_hand_interface'}
+[0.000620] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000666] (-) JobUnselected: {'identifier': 'robot_moveit_config'}
+[0.000705] (-) JobUnselected: {'identifier': 'robot_moveit_interface'}
+[0.000743] (-) JobUnselected: {'identifier': 'robot_octomap_motion_planning'}
+[0.000788] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict([('arm_hand_interface', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface')])}
+[0.000845] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.040063] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'cmake'}
+[0.045006] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'build'}
+[0.045239] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_control', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2026'), ('SYSTEMD_EXEC_PID', '2192'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7543'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install:/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:41606'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2166,unix/ctg-vm:/tmp/.ICE-unix/2166'), ('INVOCATION_ID', '813af0442bd548a7b7696a5beeaa1611'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P02KS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5a24b88bc5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.097707] (-) TimerEvent: {}
+[0.196091] (robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_control\x1b[0m\n'}
+[0.199207] (-) TimerEvent: {}
+[0.272455] (robot_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_control.dir/src/jaka.cpp.o\x1b[0m\n'}
+[0.272767] (robot_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o\x1b[0m\n'}
+[0.300626] (-) TimerEvent: {}
+[0.402168] (-) TimerEvent: {}
+[0.502816] (-) TimerEvent: {}
+[0.603830] (-) TimerEvent: {}
+[0.704803] (-) TimerEvent: {}
+[0.806000] (-) TimerEvent: {}
+[0.865185] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[0.865582] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:129:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[0.865743] (robot_control) StderrLine: {'line': b'  129 | std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<uint16_t> read_SeriesPort(); // \xe8\xaf\xbb\xe6\x89\x8b\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe6\x81\xaf \xe4\xbd\x86\xe6\x98\xaf\xe4\xbf\xa1\xe6\x81\xaf\xe8\xaf\xbb\xe5\x8f\x96\xe6\x9c\x89\xe9\x97\xae\xe9\xa2\x98\n'}
+[0.865886] (robot_control) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.866019] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[0.866155] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:4:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.866719] (robot_control) StderrLine: {'line': b'    3 | #include <cstring>\n'}
+[0.866912] (robot_control) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[0.867054] (robot_control) StderrLine: {'line': b'    4 | /************************* jaka \xe6\x9c\xba\xe6\xa2\xb0\xe8\x87\x82\xe6\x8e\xa7\xe5\x88\xb6\xe7\x9b\xb8\xe5\x85\xb3\xe7\x9a\x84\xe5\x87\xbd\xe6\x95\xb0*************************/\n'}
+[0.906768] (-) TimerEvent: {}
+[1.007604] (-) TimerEvent: {}
+[1.024957] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.025276] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:20:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_Move_Use_Joint_LPF(double)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.025436] (robot_control) StderrLine: {'line': b'   20 | errno_t \x1b[01;35m\x1b[KServo_Move_Use_Joint_LPF\x1b[m\x1b[K(double cutoffFreq);\n'}
+[1.025578] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.025711] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.025851] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:20:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_Move_Use_Joint_LPF(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.025986] (robot_control) StderrLine: {'line': b'   20 | errno_t \x1b[01;36m\x1b[KServo_Move_Use_Joint_LPF\x1b[m\x1b[K(double cutoffFreq);\n'}
+[1.026430] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026580] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.026715] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:22:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_Move_Enable(BOOL)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.026876] (robot_control) StderrLine: {'line': b'   22 | errno_t \x1b[01;35m\x1b[KServo_Move_Enable\x1b[m\x1b[K(BOOL enable);\n'}
+[1.027012] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.028468] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.028723] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:22:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_Move_Enable(BOOL)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.028885] (robot_control) StderrLine: {'line': b'   22 | errno_t \x1b[01;36m\x1b[KServo_Move_Enable\x1b[m\x1b[K(BOOL enable);\n'}
+[1.029030] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.029960] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.030239] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:24:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_J(const JointValue*, MoveMode)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.030507] (robot_control) StderrLine: {'line': b'   24 | errno_t \x1b[01;35m\x1b[KServo_J\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode);\n'}
+[1.030669] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.032765] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.032925] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Servo_J(const JointValue*, MoveMode)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.033070] (robot_control) StderrLine: {'line': b'   24 | errno_t \x1b[01;36m\x1b[KServo_J\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode);\n'}
+[1.033204] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.033357] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.033490] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:27:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Login_In(const char*)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.033652] (robot_control) StderrLine: {'line': b'   27 | errno_t \x1b[01;35m\x1b[KLogin_In\x1b[m\x1b[K(const char *ip);\n'}
+[1.033783] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.033950] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.034079] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:27:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Login_In(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.034405] (robot_control) StderrLine: {'line': b'   27 | errno_t \x1b[01;36m\x1b[KLogin_In\x1b[m\x1b[K(const char *ip);\n'}
+[1.034599] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.034736] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.034870] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:30:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Power_On()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.035007] (robot_control) StderrLine: {'line': b'   30 | errno_t \x1b[01;35m\x1b[KPower_On\x1b[m\x1b[K();\n'}
+[1.035139] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.035269] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.035400] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Power_On()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.035533] (robot_control) StderrLine: {'line': b'   30 | errno_t \x1b[01;36m\x1b[KPower_On\x1b[m\x1b[K();\n'}
+[1.035664] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.035774] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.035905] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:34:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Power_Off()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.036048] (robot_control) StderrLine: {'line': b'   34 | errno_t \x1b[01;35m\x1b[KPower_Off\x1b[m\x1b[K();\n'}
+[1.036142] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.036192] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.036288] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:34:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Power_Off()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.036420] (robot_control) StderrLine: {'line': b'   34 | errno_t \x1b[01;36m\x1b[KPower_Off\x1b[m\x1b[K();\n'}
+[1.036550] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.036679] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.036809] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:37:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Enable_Robot()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.036942] (robot_control) StderrLine: {'line': b'   37 | errno_t \x1b[01;35m\x1b[KEnable_Robot\x1b[m\x1b[K();\n'}
+[1.037053] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.037166] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.037295] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:37:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Enable_Robot()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.037485] (robot_control) StderrLine: {'line': b'   37 | errno_t \x1b[01;36m\x1b[KEnable_Robot\x1b[m\x1b[K();\n'}
+[1.037659] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.037797] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.037932] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:40:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Disable_Robot()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.038068] (robot_control) StderrLine: {'line': b'   40 | errno_t \x1b[01;35m\x1b[KDisable_Robot\x1b[m\x1b[K();\n'}
+[1.038204] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.038339] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.038492] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:40:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Disable_Robot()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.038624] (robot_control) StderrLine: {'line': b'   40 | errno_t \x1b[01;36m\x1b[KDisable_Robot\x1b[m\x1b[K();\n'}
+[1.038765] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.038908] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.039335] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:42:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Login_out()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.039497] (robot_control) StderrLine: {'line': b'   42 | errno_t \x1b[01;35m\x1b[KLogin_out\x1b[m\x1b[K();\n'}
+[1.039643] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.039774] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.039905] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:42:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Login_out()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.040037] (robot_control) StderrLine: {'line': b'   42 | errno_t \x1b[01;36m\x1b[KLogin_out\x1b[m\x1b[K();\n'}
+[1.040167] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.040297] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.040432] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:44:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t shut_down()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.040566] (robot_control) StderrLine: {'line': b'   44 | errno_t \x1b[01;35m\x1b[Kshut_down\x1b[m\x1b[K();\n'}
+[1.040696] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.040825] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.040954] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:44:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t shut_down()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.041105] (robot_control) StderrLine: {'line': b'   44 | errno_t \x1b[01;36m\x1b[Kshut_down\x1b[m\x1b[K();\n'}
+[1.041237] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.041369] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.041499] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Set_Collision_Level(int)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.041642] (robot_control) StderrLine: {'line': b'   47 | errno_t \x1b[01;35m\x1b[KSet_Collision_Level\x1b[m\x1b[K(const int level);\n'}
+[1.041772] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.041902] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.042031] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:47:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Set_Collision_Level(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.042164] (robot_control) StderrLine: {'line': b'   47 | errno_t \x1b[01;36m\x1b[KSet_Collision_Level\x1b[m\x1b[K(const int level);\n'}
+[1.042291] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.042622] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.042757] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:50:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Collision_Level()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.042898] (robot_control) StderrLine: {'line': b'   50 | errno_t \x1b[01;35m\x1b[KGet_Collision_Level\x1b[m\x1b[K();\n'}
+[1.043036] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.043167] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.043296] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:50:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Collision_Level()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.043427] (robot_control) StderrLine: {'line': b'   50 | errno_t \x1b[01;36m\x1b[KGet_Collision_Level\x1b[m\x1b[K();\n'}
+[1.043557] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.043691] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.043835] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:53:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[KBOOL Is_In_Collision()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.043982] (robot_control) StderrLine: {'line': b'   53 | BOOL \x1b[01;35m\x1b[KIs_In_Collision\x1b[m\x1b[K();\n'}
+[1.044126] (robot_control) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.044264] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.044408] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:53:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOL Is_In_Collision()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.044511] (robot_control) StderrLine: {'line': b'   53 | BOOL \x1b[01;36m\x1b[KIs_In_Collision\x1b[m\x1b[K();\n'}
+[1.044587] (robot_control) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.044648] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.044728] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:56:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Collision_Recover()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.044787] (robot_control) StderrLine: {'line': b'   56 | errno_t \x1b[01;35m\x1b[KCollision_Recover\x1b[m\x1b[K();\n'}
+[1.044866] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.044920] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.044973] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:56:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Collision_Recover()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045043] (robot_control) StderrLine: {'line': b'   56 | errno_t \x1b[01;36m\x1b[KCollision_Recover\x1b[m\x1b[K();\n'}
+[1.045128] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.045187] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.045252] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:62:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Jog_Motion(int, MoveMode, CoordType, double, double)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.045310] (robot_control) StderrLine: {'line': b'   62 | errno_t \x1b[01;35m\x1b[KJog_Motion\x1b[m\x1b[K(int aj_num, MoveMode move_mode, CoordType coord_type, double vel_cmd, double pos_cmd);\n'}
+[1.045362] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.045412] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.045462] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:62:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Jog_Motion(int, MoveMode, CoordType, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045515] (robot_control) StderrLine: {'line': b'   62 | errno_t \x1b[01;36m\x1b[KJog_Motion\x1b[m\x1b[K(int aj_num, MoveMode move_mode, CoordType coord_type, double vel_cmd, double pos_cmd);\n'}
+[1.045566] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.045616] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.045666] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:65:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Jog_Stop(int)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.045717] (robot_control) StderrLine: {'line': b'   65 | errno_t \x1b[01;35m\x1b[KJog_Stop\x1b[m\x1b[K(int num);\n'}
+[1.045767] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.045820] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.045870] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:65:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Jog_Stop(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045920] (robot_control) StderrLine: {'line': b'   65 | errno_t \x1b[01;36m\x1b[KJog_Stop\x1b[m\x1b[K(int num);\n'}
+[1.045971] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.046020] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.046070] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:69:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.046138] (robot_control) StderrLine: {'line': b'   69 | errno_t \x1b[01;35m\x1b[KJoints_Move\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed);\n'}
+[1.046192] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046243] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.046733] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:69:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.046955] (robot_control) StderrLine: {'line': b'   69 | errno_t \x1b[01;36m\x1b[KJoints_Move\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed);\n'}
+[1.047109] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.047253] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.047591] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:72:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double, double, double, const OptionalCond*)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.047784] (robot_control) StderrLine: {'line': b'   72 | errno_t \x1b[01;35m\x1b[KJoints_Move\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed, double acc, double tol, const OptionalCond *option_cond);\n'}
+[1.047955] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.048098] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.048237] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:72:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double, double, double, const OptionalCond*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.048374] (robot_control) StderrLine: {'line': b'   72 | errno_t \x1b[01;36m\x1b[KJoints_Move\x1b[m\x1b[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed, double acc, double tol, const OptionalCond *option_cond);\n'}
+[1.048522] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.048656] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.048790] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:76:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Motion_Abort()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.048932] (robot_control) StderrLine: {'line': b'   76 | errno_t \x1b[01;35m\x1b[KMotion_Abort\x1b[m\x1b[K();\n'}
+[1.049065] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.049197] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.049329] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Motion_Abort()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049463] (robot_control) StderrLine: {'line': b'   76 | errno_t \x1b[01;36m\x1b[KMotion_Abort\x1b[m\x1b[K();\n'}
+[1.049595] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.049725] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.049855] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:79:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.049996] (robot_control) StderrLine: {'line': b'   79 | errno_t \x1b[01;35m\x1b[KLinear_Move\x1b[m\x1b[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed);\n'}
+[1.050128] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.050258] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.050389] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:79:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.050521] (robot_control) StderrLine: {'line': b'   79 | errno_t \x1b[01;36m\x1b[KLinear_Move\x1b[m\x1b[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed);\n'}
+[1.050653] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.050787] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.051164] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:82:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double, double, double, const OptionalCond*, double, double)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.051531] (robot_control) StderrLine: {'line': b'   82 | errno_t \x1b[01;35m\x1b[KLinear_Move\x1b[m\x1b[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed, double accel, double tol, const OptionalCond *option_cond, double ori_vel, double ori_acc);\n'}
+[1.051675] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.051815] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.051949] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:82:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double, double, double, const OptionalCond*, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052084] (robot_control) StderrLine: {'line': b'   82 | errno_t \x1b[01;36m\x1b[KLinear_Move\x1b[m\x1b[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed, double accel, double tol, const OptionalCond *option_cond, double ori_vel, double ori_acc);\n'}
+[1.052232] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.052364] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.052496] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:85:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Joint_Position(JointValue*)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.052632] (robot_control) StderrLine: {'line': b'   85 | errno_t \x1b[01;35m\x1b[KGet_Joint_Position\x1b[m\x1b[K(JointValue *joint_position);\n'}
+[1.052763] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.052894] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.053026] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:85:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Joint_Position(JointValue*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.053163] (robot_control) StderrLine: {'line': b'   85 | errno_t \x1b[01;36m\x1b[KGet_Joint_Position\x1b[m\x1b[K(JointValue *joint_position);\n'}
+[1.053294] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.053424] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.053563] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:88:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Tcp_Position(CartesianPose*)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.053701] (robot_control) StderrLine: {'line': b'   88 | errno_t \x1b[01;35m\x1b[KGet_Tcp_Position\x1b[m\x1b[K(CartesianPose *tcp_position);\n'}
+[1.053832] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054212] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.054285] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:88:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Get_Tcp_Position(CartesianPose*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054339] (robot_control) StderrLine: {'line': b'   88 | errno_t \x1b[01;36m\x1b[KGet_Tcp_Position\x1b[m\x1b[K(CartesianPose *tcp_position);\n'}
+[1.054392] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054443] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.054495] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:92:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Is_Moving(BOOL*)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.054549] (robot_control) StderrLine: {'line': b'   92 | errno_t \x1b[01;35m\x1b[KIs_Moving\x1b[m\x1b[K(BOOL *in_pos);\n'}
+[1.054637] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054690] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.054741] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:92:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t Is_Moving(BOOL*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054792] (robot_control) StderrLine: {'line': b'   92 | errno_t \x1b[01;36m\x1b[KIs_Moving\x1b[m\x1b[K(BOOL *in_pos);\n'}
+[1.054842] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054892] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.054949] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:126:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t change_mode()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.055355] (robot_control) StderrLine: {'line': b'  126 | errno_t \x1b[01;35m\x1b[Kchange_mode\x1b[m\x1b[K(); // \xe6\x9b\xb4\xe6\x94\xb9485\xe9\x80\x9a\xe9\x81\x93\xe4\xba\x8c\xe7\x9a\x84\xe9\x80\x9a\xe8\xae\xaf\xe6\xa8\xa1\xe5\xbc\x8f,\xe6\x89\x8b\xe7\x9a\x84\xe9\x80\x9a\xe8\xae\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe6\x98\xafmodbus rtu\n'}
+[1.055544] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.055683] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.055820] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:126:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kerrno_t change_mode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.055965] (robot_control) StderrLine: {'line': b'  126 | errno_t \x1b[01;36m\x1b[Kchange_mode\x1b[m\x1b[K(); // \xe6\x9b\xb4\xe6\x94\xb9485\xe9\x80\x9a\xe9\x81\x93\xe4\xba\x8c\xe7\x9a\x84\xe9\x80\x9a\xe8\xae\xaf\xe6\xa8\xa1\xe5\xbc\x8f,\xe6\x89\x8b\xe7\x9a\x84\xe9\x80\x9a\xe8\xae\xaf\xe6\xa8\xa1\xe5\xbc\x8f\xe6\x98\xafmodbus rtu\n'}
+[1.056099] (robot_control) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.056341] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.056479] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:127:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid Add_Signal()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.056620] (robot_control) StderrLine: {'line': b'  127 | void \x1b[01;35m\x1b[KAdd_Signal\x1b[m\x1b[K();     // \xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\xad\xe4\xb8\xaa\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xef\xbc\x8c\xe5\x8f\xaa\xe6\x9c\x89\xe6\xb7\xbb\xe5\x8a\xa0\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xe6\x89\x8d\xe8\x83\xbd\xe8\x8e\xb7\xe5\x8f\x96\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe6\x81\xaf\n'}
+[1.056755] (robot_control) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.056886] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.057017] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:127:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid Add_Signal()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.057150] (robot_control) StderrLine: {'line': b'  127 | void \x1b[01;36m\x1b[KAdd_Signal\x1b[m\x1b[K();     // \xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\xad\xe4\xb8\xaa\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xef\xbc\x8c\xe5\x8f\xaa\xe6\x9c\x89\xe6\xb7\xbb\xe5\x8a\xa0\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xe6\x89\x8d\xe8\x83\xbd\xe8\x8e\xb7\xe5\x8f\x96\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe6\x81\xaf\n'}
+[1.057283] (robot_control) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.057413] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.057542] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:128:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid Delete_signal()\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.057716] (robot_control) StderrLine: {'line': b'  128 | void \x1b[01;35m\x1b[KDelete_signal\x1b[m\x1b[K();  // \xe5\x88\xa0\xe9\x99\xa4\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xef\xbc\x8c\xe6\x94\xbe\xe5\x9c\xa8\xe6\x9e\x90\xe6\x9e\x84\xe5\x87\xbd\xe6\x95\xb0\xe4\xb8\xad\n'}
+[1.057847] (robot_control) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.057976] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.058106] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:128:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid Delete_signal()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.058587] (robot_control) StderrLine: {'line': b'  128 | void \x1b[01;36m\x1b[KDelete_signal\x1b[m\x1b[K();  // \xe5\x88\xa0\xe9\x99\xa4\xe4\xbf\xa1\xe5\x8f\xb7\xe9\x87\x8f\xef\xbc\x8c\xe6\x94\xbe\xe5\x9c\xa8\xe6\x9e\x90\xe6\x9e\x84\xe5\x87\xbd\xe6\x95\xb0\xe4\xb8\xad\n'}
+[1.058822] (robot_control) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.058979] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.059314] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:129:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[1.059477] (robot_control) StderrLine: {'line': b'  129 | std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<uint16_t> read_SeriesPort(); // \xe8\xaf\xbb\xe6\x89\x8b\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe6\x81\xaf \xe4\xbd\x86\xe6\x98\xaf\xe4\xbf\xa1\xe6\x81\xaf\xe8\xaf\xbb\xe5\x8f\x96\xe6\x9c\x89\xe9\x97\xae\xe9\xa2\x98\n'}
+[1.059534] (robot_control) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.059587] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.059640] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:4:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.059733] (robot_control) StderrLine: {'line': b'    3 | #include <cstring>\n'}
+[1.059801] (robot_control) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[1.059901] (robot_control) StderrLine: {'line': b'    4 | /************************* jaka \xe6\x9c\xba\xe6\xa2\xb0\xe8\x87\x82\xe6\x8e\xa7\xe5\x88\xb6\xe7\x9b\xb8\xe5\x85\xb3\xe7\x9a\x84\xe5\x87\xbd\xe6\x95\xb0*************************/\n'}
+[1.060103] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3\x1b[m\x1b[K:\n'}
+[1.060404] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:132:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kredundant redeclaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)\x1b[m\x1b[K\xe2\x80\x99 in same scope [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls\x07-Wredundant-decls\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.060571] (robot_control) StderrLine: {'line': b'  132 | void \x1b[01;35m\x1b[Kwrite_SeriesPort_modbus\x1b[m\x1b[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6, uint16_t  Register_Number);\n'}
+[1.060640] (robot_control) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.060699] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1\x1b[m\x1b[K:\n'}
+[1.060834] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:132:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration of \xe2\x80\x98\x1b[01m\x1b[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.060944] (robot_control) StderrLine: {'line': b'  132 | void \x1b[01;36m\x1b[Kwrite_SeriesPort_modbus\x1b[m\x1b[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6, uint16_t  Register_Number);\n'}
+[1.061002] (robot_control) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.090314] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kerrno_t change_mode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.090927] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:170:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.091187] (robot_control) StderrLine: {'line': b'  170 |     int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K;\n'}
+[1.091343] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.092857] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid Add_Signal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.093188] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:244:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.093724] (robot_control) StderrLine: {'line': b'  244 |         int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = m_JAKAZuRobot.add_tio_rs_signal(sign_info_angles[i]);\n'}
+[1.093886] (robot_control) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.094025] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid Delete_signal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.094161] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:254:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.094303] (robot_control) StderrLine: {'line': b'  254 |         int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = m_JAKAZuRobot.del_tio_rs_signal(name[i]);\n'}
+[1.094440] (robot_control) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.102403] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.102647] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:307:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.102802] (robot_control) StderrLine: {'line': b'  307 |     int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = m_JAKAZuRobot.send_tio_rs_command(1, data, sizeof(data));\n'}
+[1.102943] (robot_control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.107739] (-) TimerEvent: {}
+[1.209039] (-) TimerEvent: {}
+[1.221691] (robot_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_control.dir/build.make:90\xef\xbc\x9aCMakeFiles/robot_control.dir/src/jaka.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.222049] (robot_control) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[1.310707] (-) TimerEvent: {}
+[1.412134] (-) TimerEvent: {}
+[1.513510] (-) TimerEvent: {}
+[1.616653] (-) TimerEvent: {}
+[1.718615] (-) TimerEvent: {}
+[1.820119] (-) TimerEvent: {}
+[1.922274] (-) TimerEvent: {}
+[2.023792] (-) TimerEvent: {}
+[2.125429] (-) TimerEvent: {}
+[2.226660] (-) TimerEvent: {}
+[2.328222] (-) TimerEvent: {}
+[2.429003] (-) TimerEvent: {}
+[2.529872] (-) TimerEvent: {}
+[2.631561] (-) TimerEvent: {}
+[2.734272] (-) TimerEvent: {}
+[2.836004] (-) TimerEvent: {}
+[2.937844] (-) TimerEvent: {}
+[3.039645] (-) TimerEvent: {}
+[3.142411] (-) TimerEvent: {}
+[3.246866] (-) TimerEvent: {}
+[3.348832] (-) TimerEvent: {}
+[3.456824] (-) TimerEvent: {}
+[3.562954] (-) TimerEvent: {}
+[3.664220] (-) TimerEvent: {}
+[3.765871] (-) TimerEvent: {}
+[3.867225] (-) TimerEvent: {}
+[3.971127] (-) TimerEvent: {}
+[4.072908] (-) TimerEvent: {}
+[4.174858] (-) TimerEvent: {}
+[4.280276] (-) TimerEvent: {}
+[4.386528] (-) TimerEvent: {}
+[4.490205] (-) TimerEvent: {}
+[4.558985] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:12\x1b[m\x1b[K:\n'}
+[4.559374] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:129:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[4.559707] (robot_control) StderrLine: {'line': b'  129 | std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<uint16_t> read_SeriesPort(); // \xe8\xaf\xbb\xe6\x89\x8b\xe8\xa7\x92\xe5\xba\xa6\xe4\xbf\xa1\xe6\x81\xaf \xe4\xbd\x86\xe6\x98\xaf\xe4\xbf\xa1\xe6\x81\xaf\xe8\xaf\xbb\xe5\x8f\x96\xe6\x9c\x89\xe9\x97\xae\xe9\xa2\x98\n'}
+[4.560181] (robot_control) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.560327] (robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:12\x1b[m\x1b[K:\n'}
+[4.560467] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:4:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.560669] (robot_control) StderrLine: {'line': b'    3 | #include <cstring>\n'}
+[4.560806] (robot_control) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[4.560949] (robot_control) StderrLine: {'line': b'    4 | /************************* jaka \xe6\x9c\xba\xe6\xa2\xb0\xe8\x87\x82\xe6\x8e\xa7\xe5\x88\xb6\xe7\x9b\xb8\xe5\x85\xb3\xe7\x9a\x84\xe5\x87\xbd\xe6\x95\xb0*************************/\n'}
+[4.590843] (-) TimerEvent: {}
+[4.700041] (-) TimerEvent: {}
+[4.800695] (-) TimerEvent: {}
+[4.901658] (-) TimerEvent: {}
+[5.002692] (-) TimerEvent: {}
+[5.105753] (-) TimerEvent: {}
+[5.207125] (-) TimerEvent: {}
+[5.308050] (-) TimerEvent: {}
+[5.411432] (-) TimerEvent: {}
+[5.512608] (-) TimerEvent: {}
+[5.613247] (-) TimerEvent: {}
+[5.714506] (-) TimerEvent: {}
+[5.815849] (-) TimerEvent: {}
+[5.916814] (-) TimerEvent: {}
+[6.018151] (-) TimerEvent: {}
+[6.119728] (-) TimerEvent: {}
+[6.220375] (-) TimerEvent: {}
+[6.321706] (-) TimerEvent: {}
+[6.423404] (-) TimerEvent: {}
+[6.524946] (-) TimerEvent: {}
+[6.626396] (-) TimerEvent: {}
+[6.727982] (-) TimerEvent: {}
+[6.831501] (-) TimerEvent: {}
+[6.932612] (-) TimerEvent: {}
+[7.033861] (-) TimerEvent: {}
+[7.135886] (-) TimerEvent: {}
+[7.237000] (-) TimerEvent: {}
+[7.337738] (-) TimerEvent: {}
+[7.438803] (-) TimerEvent: {}
+[7.540383] (-) TimerEvent: {}
+[7.644249] (-) TimerEvent: {}
+[7.747137] (-) TimerEvent: {}
+[7.848471] (-) TimerEvent: {}
+[7.949945] (-) TimerEvent: {}
+[8.052675] (-) TimerEvent: {}
+[8.154764] (-) TimerEvent: {}
+[8.255316] (-) TimerEvent: {}
+[8.356580] (-) TimerEvent: {}
+[8.459259] (-) TimerEvent: {}
+[8.565029] (-) TimerEvent: {}
+[8.666454] (-) TimerEvent: {}
+[8.770817] (-) TimerEvent: {}
+[8.873183] (-) TimerEvent: {}
+[8.974238] (-) TimerEvent: {}
+[9.076669] (-) TimerEvent: {}
+[9.179407] (-) TimerEvent: {}
+[9.280350] (-) TimerEvent: {}
+[9.382378] (-) TimerEvent: {}
+[9.484159] (-) TimerEvent: {}
+[9.591619] (-) TimerEvent: {}
+[9.694302] (-) TimerEvent: {}
+[9.795260] (-) TimerEvent: {}
+[9.896157] (-) TimerEvent: {}
+[9.996970] (-) TimerEvent: {}
+[10.098576] (-) TimerEvent: {}
+[10.199452] (-) TimerEvent: {}
+[10.300607] (-) TimerEvent: {}
+[10.402809] (-) TimerEvent: {}
+[10.504153] (-) TimerEvent: {}
+[10.604781] (-) TimerEvent: {}
+[10.705924] (-) TimerEvent: {}
+[10.807261] (-) TimerEvent: {}
+[10.907615] (-) TimerEvent: {}
+[11.008610] (-) TimerEvent: {}
+[11.111270] (-) TimerEvent: {}
+[11.212775] (-) TimerEvent: {}
+[11.313847] (-) TimerEvent: {}
+[11.429709] (-) TimerEvent: {}
+[11.530289] (-) TimerEvent: {}
+[11.631201] (-) TimerEvent: {}
+[11.732567] (-) TimerEvent: {}
+[11.833542] (-) TimerEvent: {}
+[11.934678] (-) TimerEvent: {}
+[12.035766] (-) TimerEvent: {}
+[12.136534] (-) TimerEvent: {}
+[12.239212] (-) TimerEvent: {}
+[12.340107] (-) TimerEvent: {}
+[12.446870] (-) TimerEvent: {}
+[12.547875] (-) TimerEvent: {}
+[12.649019] (-) TimerEvent: {}
+[12.751119] (-) TimerEvent: {}
+[12.852992] (-) TimerEvent: {}
+[12.953584] (-) TimerEvent: {}
+[13.054853] (-) TimerEvent: {}
+[13.156982] (-) TimerEvent: {}
+[13.258357] (-) TimerEvent: {}
+[13.359675] (-) TimerEvent: {}
+[13.463341] (-) TimerEvent: {}
+[13.563934] (-) TimerEvent: {}
+[13.666447] (-) TimerEvent: {}
+[13.768275] (-) TimerEvent: {}
+[13.869025] (-) TimerEvent: {}
+[13.971652] (-) TimerEvent: {}
+[14.072335] (-) TimerEvent: {}
+[14.176370] (-) TimerEvent: {}
+[14.277681] (-) TimerEvent: {}
+[14.379409] (-) TimerEvent: {}
+[14.484432] (-) TimerEvent: {}
+[14.586843] (-) TimerEvent: {}
+[14.688878] (-) TimerEvent: {}
+[14.791224] (-) TimerEvent: {}
+[14.891801] (-) TimerEvent: {}
+[14.993347] (-) TimerEvent: {}
+[15.098390] (-) TimerEvent: {}
+[15.199437] (-) TimerEvent: {}
+[15.301162] (-) TimerEvent: {}
+[15.402288] (-) TimerEvent: {}
+[15.505465] (-) TimerEvent: {}
+[15.607730] (-) TimerEvent: {}
+[15.708371] (-) TimerEvent: {}
+[15.809031] (-) TimerEvent: {}
+[15.910377] (-) TimerEvent: {}
+[16.011343] (-) TimerEvent: {}
+[16.112338] (-) TimerEvent: {}
+[16.212996] (-) TimerEvent: {}
+[16.314683] (-) TimerEvent: {}
+[16.415446] (-) TimerEvent: {}
+[16.516430] (-) TimerEvent: {}
+[16.617051] (-) TimerEvent: {}
+[16.717791] (-) TimerEvent: {}
+[16.818528] (-) TimerEvent: {}
+[16.920776] (-) TimerEvent: {}
+[17.024318] (-) TimerEvent: {}
+[17.124986] (-) TimerEvent: {}
+[17.226325] (-) TimerEvent: {}
+[17.327573] (-) TimerEvent: {}
+[17.428251] (-) TimerEvent: {}
+[17.539877] (-) TimerEvent: {}
+[17.642587] (-) TimerEvent: {}
+[17.749323] (-) TimerEvent: {}
+[17.852176] (-) TimerEvent: {}
+[17.955859] (-) TimerEvent: {}
+[18.056870] (-) TimerEvent: {}
+[18.158408] (-) TimerEvent: {}
+[18.259844] (-) TimerEvent: {}
+[18.363241] (-) TimerEvent: {}
+[18.465295] (-) TimerEvent: {}
+[18.573451] (-) TimerEvent: {}
+[18.675136] (-) TimerEvent: {}
+[18.777277] (-) TimerEvent: {}
+[18.878697] (-) TimerEvent: {}
+[18.979638] (-) TimerEvent: {}
+[19.080335] (-) TimerEvent: {}
+[19.181381] (-) TimerEvent: {}
+[19.283630] (-) TimerEvent: {}
+[19.387675] (-) TimerEvent: {}
+[19.489675] (-) TimerEvent: {}
+[19.591989] (-) TimerEvent: {}
+[19.694501] (-) TimerEvent: {}
+[19.796862] (-) TimerEvent: {}
+[19.898288] (-) TimerEvent: {}
+[19.999316] (-) TimerEvent: {}
+[20.100672] (-) TimerEvent: {}
+[20.201524] (-) TimerEvent: {}
+[20.304273] (-) TimerEvent: {}
+[20.405569] (-) TimerEvent: {}
+[20.507246] (-) TimerEvent: {}
+[20.611097] (-) TimerEvent: {}
+[20.712297] (-) TimerEvent: {}
+[20.815486] (-) TimerEvent: {}
+[20.915987] (-) TimerEvent: {}
+[21.016496] (-) TimerEvent: {}
+[21.118299] (-) TimerEvent: {}
+[21.221229] (-) TimerEvent: {}
+[21.322898] (-) TimerEvent: {}
+[21.423707] (-) TimerEvent: {}
+[21.529631] (-) TimerEvent: {}
+[21.630704] (-) TimerEvent: {}
+[21.732018] (-) TimerEvent: {}
+[21.832932] (-) TimerEvent: {}
+[21.857662] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse robot_control::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.857904] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:332:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQ_UNUSED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KRCL_UNUSED\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.858000] (robot_control) StderrLine: {'line': b'  332 |     \x1b[01;31m\x1b[KQ_UNUSED\x1b[m\x1b[K(goal_handle);\n'}
+[21.858058] (robot_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[21.858114] (robot_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[KRCL_UNUSED\x1b[m\x1b[K\n'}
+[21.934910] (-) TimerEvent: {}
+[21.953021] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_control::publisher_timer_3_Callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.953179] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:578:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_SeriesPort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[21.953214] (robot_control) StderrLine: {'line': b'  578 |         std::vector<uint16_t> R_ByteArray = \x1b[01;31m\x1b[Kread_SeriesPort\x1b[m\x1b[K();\n'}
+[21.953247] (robot_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.957176] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse robot_control::handle_goal_hand(const GoalUUID&, std::shared_ptr<const arm_hand_interface::action::DexterousHand_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.957266] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:594:142:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.957301] (robot_control) StderrLine: {'line': b'  594 | ponse robot_control ::handle_goal_hand(const rclcpp_action::GoalUUID &uuid, \x1b[01;35m\x1b[Kstd::shared_ptr<const DexterousHand::Goal> goal\x1b[m\x1b[K)\n'}
+[21.957338] (robot_control) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[21.957370] (robot_control) StderrLine: {'line': b'\n'}
+[21.957398] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse robot_control::handle_cancel_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.957429] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:603:113:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.957459] (robot_control) StderrLine: {'line': b'  603 | rclcpp_action::CancelResponse robot_control ::handle_cancel_hand(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleDexterousHand> goal_handle\x1b[m\x1b[K)\n'}
+[21.957495] (robot_control) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.012517] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_control::execute_move_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.012877] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:644:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_SeriesPort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.013040] (robot_control) StderrLine: {'line': b'  644 |             R_ByteArray = \x1b[01;31m\x1b[Kread_SeriesPort\x1b[m\x1b[K(); // \xe8\xaf\xbb\xe5\x8f\x96\xe6\x89\x8b\xe7\x9a\x846\xe5\x85\xb3\xe8\x8a\x82\xe8\xa7\x92\xe5\xba\xa6\n'}
+[22.013189] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.017208] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:651:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around comparison in operand of \xe2\x80\x98\x1b[01m\x1b[K==\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.017618] (robot_control) StderrLine: {'line': b'  651 |         } while (false == \x1b[01;35m\x1b[Kabs(R_ByteArray[0] - 999) <= 10\x1b[m\x1b[K && abs(R_ByteArray[1] - 999) <= 10 && abs(R_ByteArray[2] - 999) <= 10 && abs(R_ByteArray[3] - 999) <= 10 && abs(R_ByteArray[4] - 1000) <= 10 && abs(R_ByteArray[5] - 1000) <= 10);\n'}
+[22.017714] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[22.035795] (-) TimerEvent: {}
+[22.070541] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:657:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_SeriesPort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.070868] (robot_control) StderrLine: {'line': b'  657 |         R_ByteArray = \x1b[01;31m\x1b[Kread_SeriesPort\x1b[m\x1b[K(); // \xe8\xaf\xbb\xe5\x8f\x96\xe6\x89\x8b\xe7\x9a\x846\xe5\x85\xb3\xe8\x8a\x82\xe8\xa7\x92\xe5\xba\xa6\n'}
+[22.071022] (robot_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.124223] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:697:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_SeriesPort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.124619] (robot_control) StderrLine: {'line': b'  697 |             R_ByteArray = \x1b[01;31m\x1b[Kread_SeriesPort\x1b[m\x1b[K();         // \xe8\xaf\xbb\xe5\x8f\x96\xe6\x89\x8b\xe7\x9a\x846\xe5\x85\xb3\xe8\x8a\x82\xe8\xa7\x92\xe5\xba\xa6\n'}
+[22.124773] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.125869] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:703:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around comparison in operand of \xe2\x80\x98\x1b[01m\x1b[K==\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.126086] (robot_control) StderrLine: {'line': b'  703 |         } while (false == \x1b[01;35m\x1b[Kabs(R_ByteArray[0] - 999) <= 10\x1b[m\x1b[K && abs(R_ByteArray[1] - 999) <= 10 && abs(R_ByteArray[2] - 999) <= 10 && abs(R_ByteArray[3] - 999) <= 10 && abs(R_ByteArray[4] - 1000) <= 10 && abs(R_ByteArray[5] - 1000) <= 10);\n'}
+[22.126238] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[22.138209] (-) TimerEvent: {}
+[22.172071] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:709:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_SeriesPort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.172532] (robot_control) StderrLine: {'line': b'  709 |         R_ByteArray = \x1b[01;31m\x1b[Kread_SeriesPort\x1b[m\x1b[K(); // \xe8\xaf\xbb\xe5\x8f\x96\xe6\x89\x8b\xe7\x9a\x846\xe5\x85\xb3\xe8\x8a\x82\xe8\xa7\x92\xe5\xba\xa6\n'}
+[22.172632] (robot_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.241703] (-) TimerEvent: {}
+[22.342517] (-) TimerEvent: {}
+[22.444636] (-) TimerEvent: {}
+[22.546378] (-) TimerEvent: {}
+[22.647365] (-) TimerEvent: {}
+[22.749192] (-) TimerEvent: {}
+[22.851074] (-) TimerEvent: {}
+[22.952547] (-) TimerEvent: {}
+[23.053312] (-) TimerEvent: {}
+[23.155393] (-) TimerEvent: {}
+[23.256663] (-) TimerEvent: {}
+[23.359470] (-) TimerEvent: {}
+[23.463892] (-) TimerEvent: {}
+[23.565285] (-) TimerEvent: {}
+[23.666820] (-) TimerEvent: {}
+[23.768343] (-) TimerEvent: {}
+[23.870644] (-) TimerEvent: {}
+[23.971794] (-) TimerEvent: {}
+[24.072487] (-) TimerEvent: {}
+[24.173101] (-) TimerEvent: {}
+[24.275939] (-) TimerEvent: {}
+[24.376876] (-) TimerEvent: {}
+[24.479897] (-) TimerEvent: {}
+[24.580546] (-) TimerEvent: {}
+[24.683226] (-) TimerEvent: {}
+[24.786978] (-) TimerEvent: {}
+[24.888455] (-) TimerEvent: {}
+[24.991876] (-) TimerEvent: {}
+[25.092604] (-) TimerEvent: {}
+[25.193872] (-) TimerEvent: {}
+[25.294912] (-) TimerEvent: {}
+[25.396326] (-) TimerEvent: {}
+[25.499968] (-) TimerEvent: {}
+[25.601396] (-) TimerEvent: {}
+[25.702424] (-) TimerEvent: {}
+[25.802918] (-) TimerEvent: {}
+[25.905349] (-) TimerEvent: {}
+[26.007085] (-) TimerEvent: {}
+[26.107623] (-) TimerEvent: {}
+[26.208474] (-) TimerEvent: {}
+[26.309140] (-) TimerEvent: {}
+[26.410805] (-) TimerEvent: {}
+[26.511880] (-) TimerEvent: {}
+[26.612622] (-) TimerEvent: {}
+[26.714606] (-) TimerEvent: {}
+[26.815866] (-) TimerEvent: {}
+[26.917876] (-) TimerEvent: {}
+[27.019512] (-) TimerEvent: {}
+[27.120338] (-) TimerEvent: {}
+[27.221146] (-) TimerEvent: {}
+[27.325159] (-) TimerEvent: {}
+[27.425482] (-) TimerEvent: {}
+[27.526316] (-) TimerEvent: {}
+[27.628200] (-) TimerEvent: {}
+[27.737423] (-) TimerEvent: {}
+[27.838653] (-) TimerEvent: {}
+[27.940145] (-) TimerEvent: {}
+[28.042632] (-) TimerEvent: {}
+[28.145723] (-) TimerEvent: {}
+[28.248225] (-) TimerEvent: {}
+[28.349719] (-) TimerEvent: {}
+[28.451241] (-) TimerEvent: {}
+[28.552891] (-) TimerEvent: {}
+[28.654530] (-) TimerEvent: {}
+[28.756168] (-) TimerEvent: {}
+[28.861106] (-) TimerEvent: {}
+[28.962195] (-) TimerEvent: {}
+[29.064120] (-) TimerEvent: {}
+[29.165959] (-) TimerEvent: {}
+[29.267902] (-) TimerEvent: {}
+[29.369795] (-) TimerEvent: {}
+[29.475706] (-) TimerEvent: {}
+[29.577392] (-) TimerEvent: {}
+[29.678330] (-) TimerEvent: {}
+[29.783029] (-) TimerEvent: {}
+[29.884502] (-) TimerEvent: {}
+[29.986342] (-) TimerEvent: {}
+[30.087601] (-) TimerEvent: {}
+[30.189054] (-) TimerEvent: {}
+[30.291624] (-) TimerEvent: {}
+[30.393396] (-) TimerEvent: {}
+[30.495495] (-) TimerEvent: {}
+[30.596443] (-) TimerEvent: {}
+[30.698238] (-) TimerEvent: {}
+[30.799450] (-) TimerEvent: {}
+[30.901280] (-) TimerEvent: {}
+[31.002834] (-) TimerEvent: {}
+[31.103489] (-) TimerEvent: {}
+[31.204391] (-) TimerEvent: {}
+[31.306289] (-) TimerEvent: {}
+[31.407325] (-) TimerEvent: {}
+[31.508901] (-) TimerEvent: {}
+[31.611123] (-) TimerEvent: {}
+[31.712584] (-) TimerEvent: {}
+[31.814529] (-) TimerEvent: {}
+[31.915251] (-) TimerEvent: {}
+[32.017208] (-) TimerEvent: {}
+[32.122314] (-) TimerEvent: {}
+[32.225091] (-) TimerEvent: {}
+[32.326285] (-) TimerEvent: {}
+[32.427744] (-) TimerEvent: {}
+[32.528834] (-) TimerEvent: {}
+[32.630289] (-) TimerEvent: {}
+[32.733035] (-) TimerEvent: {}
+[32.834333] (-) TimerEvent: {}
+[32.935329] (-) TimerEvent: {}
+[33.038675] (-) TimerEvent: {}
+[33.141572] (-) TimerEvent: {}
+[33.242707] (-) TimerEvent: {}
+[33.344267] (-) TimerEvent: {}
+[33.445466] (-) TimerEvent: {}
+[33.546403] (-) TimerEvent: {}
+[33.647973] (-) TimerEvent: {}
+[33.748633] (-) TimerEvent: {}
+[33.851558] (-) TimerEvent: {}
+[33.953043] (-) TimerEvent: {}
+[34.053891] (-) TimerEvent: {}
+[34.155638] (-) TimerEvent: {}
+[34.260861] (-) TimerEvent: {}
+[34.362301] (-) TimerEvent: {}
+[34.466342] (-) TimerEvent: {}
+[34.567369] (-) TimerEvent: {}
+[34.632190] (robot_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_control.dir/build.make:76\xef\xbc\x9aCMakeFiles/robot_control.dir/src/robot_control.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[34.633722] (robot_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/robot_control.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[34.635125] (robot_control) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[34.646925] (robot_control) CommandEnded: {'returncode': 2}
+[34.668447] (-) TimerEvent: {}
+[34.769010] (-) TimerEvent: {}
+[34.809579] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 2}
+[34.839645] (-) EventReactorShutdown: {}

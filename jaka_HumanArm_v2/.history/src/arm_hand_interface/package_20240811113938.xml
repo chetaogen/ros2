@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>arm_hand_interface</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="269014491@qq.com">zj</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+<depend>action_msgs</depend>
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+
+
+<build_depend>rosidl_default_generators</build_depend>
+
+<exec_depend>rosidl_default_runtime</exec_depend>
+
+<member_of_group>rosidl_interface_packages</member_of_group>
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/qq_45701501/article/details/118598419
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

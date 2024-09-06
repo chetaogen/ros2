@@ -1,0 +1,324 @@
+[0.096s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface -- -j32 -l32
+[0.236s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.266s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.293s] [  4%] Built target ament_cmake_python_copy_arm_hand_interface
+[0.882s] running egg_info
+[0.882s] creating arm_hand_interface.egg-info
+[0.882s] writing arm_hand_interface.egg-info/PKG-INFO
+[0.882s] writing dependency_links to arm_hand_interface.egg-info/dependency_links.txt
+[0.882s] writing top-level names to arm_hand_interface.egg-info/top_level.txt
+[0.882s] writing manifest file 'arm_hand_interface.egg-info/SOURCES.txt'
+[0.885s] reading manifest file 'arm_hand_interface.egg-info/SOURCES.txt'
+[0.885s] writing manifest file 'arm_hand_interface.egg-info/SOURCES.txt'
+[0.938s] [  4%] Built target ament_cmake_python_build_arm_hand_interface_egg
+[2.364s] [  4%] Built target arm_hand_interface__cpp
+[2.393s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.397s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.398s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.413s] [ 12%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_c.dir/rosidl_generator_c/arm_hand_interface/action/detail/arm_vision_planning__functions.c.o[0m
+[2.414s] [ 14%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_c.dir/rosidl_generator_c/arm_hand_interface/action/detail/dexterous_hand__functions.c.o[0m
+[2.416s] [ 17%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_c.dir/rosidl_generator_c/arm_hand_interface/msg/detail/arm_status__functions.c.o[0m
+[3.362s] [ 19%] [32m[1mLinking C shared library libarm_hand_interface__rosidl_generator_c.so[0m
+[3.501s] [ 19%] Built target arm_hand_interface__rosidl_generator_c
+[3.534s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.534s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.534s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.926s] [ 27%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_hand_interface/action/dexterous_hand__type_support.cpp.o[0m
+[3.928s] [ 29%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_hand_interface/action/arm_vision_planning__type_support.cpp.o[0m
+[3.929s] [ 31%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_hand_interface/msg/arm_status__type_support.cpp.o[0m
+[4.096s] [ 34%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_hand_interface/msg/detail/arm_status__type_support.cpp.o[0m
+[4.097s] [ 38%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_hand_interface/action/detail/dexterous_hand__type_support.cpp.o[0m
+[4.097s] [ 38%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_hand_interface/action/detail/arm_vision_planning__type_support.cpp.o[0m
+[4.484s] [ 40%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_hand_interface/action/detail/dds_fastrtps/dexterous_hand__type_support.cpp.o[0m
+[4.485s] [ 44%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_hand_interface/msg/detail/dds_fastrtps/arm_status__type_support.cpp.o[0m
+[4.485s] [ 44%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_hand_interface/action/detail/dds_fastrtps/arm_vision_planning__type_support.cpp.o[0m
+[5.377s] [ 46%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_hand_interface/msg/arm_status__type_support.cpp.o[0m
+[5.402s] [ 48%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_hand_interface/action/dexterous_hand__type_support.cpp.o[0m
+[5.417s] [ 51%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_hand_interface/action/arm_vision_planning__type_support.cpp.o[0m
+[5.630s] [ 53%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_hand_interface/action/detail/arm_vision_planning__type_support.c.o[0m
+[5.631s] [ 55%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_hand_interface/action/detail/dexterous_hand__type_support.c.o[0m
+[5.633s] [ 57%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_hand_interface/msg/detail/arm_status__type_support.c.o[0m
+[5.737s] [ 59%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_hand_interface/msg/detail/arm_status__type_support_c.cpp.o[0m
+[5.737s] [ 61%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp.o[0m
+[5.746s] [ 63%] [32mBuilding CXX object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp.o[0m
+[5.828s] [ 65%] [32m[1mLinking CXX shared library libarm_hand_interface__rosidl_typesupport_c.so[0m
+[6.034s] [ 68%] [32m[1mLinking C shared library libarm_hand_interface__rosidl_typesupport_introspection_c.so[0m
+[6.281s] [ 68%] Built target arm_hand_interface__rosidl_typesupport_c
+[6.385s] [ 68%] Built target arm_hand_interface__rosidl_typesupport_introspection_c
+[6.859s] [ 70%] [32m[1mLinking CXX shared library libarm_hand_interface__rosidl_typesupport_cpp.so[0m
+[6.971s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:304:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_geometry_msgs__msg__Pose(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.971s]   304 | size_t [01;35m[Kget_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.972s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.973s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:41:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_geometry_msgs__msg__Pose(const void*, size_t)[m[K’
+[6.973s]    41 | size_t [01;36m[Kget_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.974s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.974s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:309:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_geometry_msgs__msg__Pose(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.974s]   309 | size_t [01;35m[Kmax_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.975s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.975s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:46:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_geometry_msgs__msg__Pose(bool&, bool&, size_t)[m[K’
+[6.975s]    46 | size_t [01;36m[Kmax_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.976s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.976s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[6.976s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[6.977s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[6.977s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:316:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__geometry_msgs__msg__Pose()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.977s]   316 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, geometry_msgs, msg, Pose)();
+[6.977s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.977s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:53:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__geometry_msgs__msg__Pose()[m[K’
+[6.977s]    53 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, geometry_msgs, msg, Pose)();
+[6.977s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.977s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:660:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_geometry_msgs__msg__Pose(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.977s]   660 | size_t [01;35m[Kget_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.978s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.978s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:304:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_geometry_msgs__msg__Pose(const void*, size_t)[m[K’
+[6.978s]   304 | size_t [01;36m[Kget_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.978s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.978s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:665:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_geometry_msgs__msg__Pose(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.978s]   665 | size_t [01;35m[Kmax_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.978s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.979s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:309:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_geometry_msgs__msg__Pose(bool&, bool&, size_t)[m[K’
+[6.979s]   309 | size_t [01;36m[Kmax_serialized_size_geometry_msgs__msg__Pose[m[K(
+[6.979s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.979s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[6.980s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[6.980s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[6.980s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:672:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__geometry_msgs__msg__Pose()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.980s]   672 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, geometry_msgs, msg, Pose)();
+[6.980s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.980s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:316:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__geometry_msgs__msg__Pose()[m[K’
+[6.981s]   316 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, geometry_msgs, msg, Pose)();
+[6.981s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.982s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1001:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.982s]  1001 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal[m[K(
+[6.982s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.982s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:121:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal(const void*, size_t)[m[K’
+[6.982s]   121 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal[m[K(
+[6.982s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.983s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1005:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.983s]  1005 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal[m[K(
+[6.983s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.983s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:156:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal(bool&, bool&, size_t)[m[K’
+[6.983s]   156 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Goal[m[K(
+[6.984s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.984s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[6.984s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[6.984s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[6.984s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1011:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Goal()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.984s]  1011 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Goal)();
+[6.985s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.985s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:249:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Goal()[m[K’
+[6.985s]   249 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Goal)() {
+[6.985s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.990s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1597:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.991s]  1597 | size_t [01;35m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[6.991s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.991s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1013:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’
+[6.992s]  1013 | size_t [01;36m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[6.992s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.992s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1602:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.992s]  1602 | size_t [01;35m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[6.992s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.993s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1018:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’
+[6.994s]  1018 | size_t [01;36m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[6.994s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.994s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[6.995s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[6.995s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[6.995s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1609:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.995s]  1609 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[6.995s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.995s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1025:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’
+[6.995s]  1025 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[6.995s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.996s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1833:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.996s]  1833 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result[m[K(
+[6.996s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.996s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:436:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result(const void*, size_t)[m[K’
+[6.997s]   436 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result[m[K(
+[6.998s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.999s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1837:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[6.999s]  1837 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result[m[K(
+[6.999s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.999s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:487:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result(bool&, bool&, size_t)[m[K’
+[6.999s]   487 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Result[m[K(
+[6.999s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.000s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.000s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.000s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[7.001s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1843:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Result()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.001s]  1843 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Result)();
+[7.001s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.001s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:607:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Result()[m[K’
+[7.001s]   607 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Result)() {
+[7.001s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.002s] [ 70%] Built target arm_hand_interface__rosidl_typesupport_cpp
+[7.002s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2130:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.002s]  2130 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback[m[K(
+[7.002s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.002s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:776:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback(const void*, size_t)[m[K’
+[7.002s]   776 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback[m[K(
+[7.002s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.003s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2134:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.003s]  2134 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback[m[K(
+[7.003s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.003s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:832:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback(bool&, bool&, size_t)[m[K’
+[7.003s]   832 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__ArmVisionPlanning_Feedback[m[K(
+[7.003s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.004s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.004s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.004s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[7.004s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2140:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Feedback()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.004s]  2140 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Feedback)();
+[7.004s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.004s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:948:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__ArmVisionPlanning_Feedback()[m[K’
+[7.004s]   948 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, ArmVisionPlanning_Feedback)() {
+[7.005s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.005s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2142:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.005s]  2142 | size_t [01;35m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.005s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.005s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1597:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’
+[7.005s]  1597 | size_t [01;36m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.005s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.006s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2147:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.006s]  2147 | size_t [01;35m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.006s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.006s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1602:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’
+[7.006s]  1602 | size_t [01;36m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.007s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.007s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.007s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.007s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:4[m[K:
+[7.007s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:2154:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.007s]  2154 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.008s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.008s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/arm_vision_planning__type_support_c.cpp:1609:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’
+[7.008s]  1609 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.008s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.009s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:790:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Goal(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.010s]   790 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Goal[m[K(
+[7.010s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.011s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:92:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Goal(const void*, size_t)[m[K’
+[7.011s]    92 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Goal[m[K(
+[7.011s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.012s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:794:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Goal(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.012s]   794 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Goal[m[K(
+[7.012s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.012s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:132:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Goal(bool&, bool&, size_t)[m[K’
+[7.012s]   132 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Goal[m[K(
+[7.012s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.013s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.013s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.013s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:4[m[K:
+[7.013s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:800:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Goal()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.013s]   800 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Goal)();
+[7.013s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.013s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:214:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Goal()[m[K’
+[7.013s]   214 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Goal)() {
+[7.014s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.025s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1386:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.025s]  1386 | size_t [01;35m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.025s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.025s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:802:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’
+[7.025s]   802 | size_t [01;36m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.025s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.025s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1391:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.026s]  1391 | size_t [01;35m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.026s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.026s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:807:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’
+[7.026s]   807 | size_t [01;36m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.027s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.027s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.027s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.027s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:4[m[K:
+[7.027s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1398:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.027s]  1398 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.028s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.028s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:814:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’
+[7.028s]   814 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.028s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.028s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1622:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Result(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.028s]  1622 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Result[m[K(
+[7.029s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.029s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:361:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Result(const void*, size_t)[m[K’
+[7.029s]   361 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Result[m[K(
+[7.029s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.029s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1626:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Result(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.029s]  1626 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Result[m[K(
+[7.030s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.030s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:411:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Result(bool&, bool&, size_t)[m[K’
+[7.030s]   411 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Result[m[K(
+[7.031s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.031s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.031s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.031s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:4[m[K:
+[7.031s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1632:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Result()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.031s]  1632 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Result)();
+[7.032s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.032s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:512:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Result()[m[K’
+[7.032s]   512 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Result)() {
+[7.032s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.033s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1919:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Feedback(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.033s]  1919 | size_t [01;35m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Feedback[m[K(
+[7.033s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.033s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:615:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_arm_hand_interface__action__DexterousHand_Feedback(const void*, size_t)[m[K’
+[7.033s]   615 | size_t [01;36m[Kget_serialized_size_arm_hand_interface__action__DexterousHand_Feedback[m[K(
+[7.034s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.034s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1923:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Feedback(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.034s]  1923 | size_t [01;35m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Feedback[m[K(
+[7.034s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.034s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:655:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_arm_hand_interface__action__DexterousHand_Feedback(bool&, bool&, size_t)[m[K’
+[7.034s]   655 | size_t [01;36m[Kmax_serialized_size_arm_hand_interface__action__DexterousHand_Feedback[m[K(
+[7.034s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.035s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.035s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.035s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:4[m[K:
+[7.035s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1929:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Feedback()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.035s]  1929 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Feedback)();
+[7.035s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.036s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:737:51:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__arm_hand_interface__action__DexterousHand_Feedback()[m[K’
+[7.036s]   737 | ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, arm_hand_interface, action, DexterousHand_Feedback)() {
+[7.036s]       |                                                   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.036s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1931:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.036s]  1931 | size_t [01;35m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.036s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.037s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1386:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t get_serialized_size_unique_identifier_msgs__msg__UUID(const void*, size_t)[m[K’
+[7.037s]  1386 | size_t [01;36m[Kget_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.037s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.037s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1936:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.037s]  1936 | size_t [01;35m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.037s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.037s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1391:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t max_serialized_size_unique_identifier_msgs__msg__UUID(bool&, bool&, size_t)[m[K’
+[7.038s]  1391 | size_t [01;36m[Kmax_serialized_size_unique_identifier_msgs__msg__UUID[m[K(
+[7.038s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.038s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:19[m[K,
+[7.038s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h:9[m[K,
+[7.038s]                  from [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:4[m[K:
+[7.038s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1943:53:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[7.038s]  1943 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;35m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.039s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.039s] [01m[K/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface/rosidl_typesupport_fastrtps_c/arm_hand_interface/action/detail/dexterous_hand__type_support_c.cpp:1398:53:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kconst rosidl_message_type_support_t* rosidl_typesupport_fastrtps_c__get_message_type_support_handle__unique_identifier_msgs__msg__UUID()[m[K’
+[7.039s]  1398 |   ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME([01;36m[Krosidl_typesupport_fastrtps_c[m[K, unique_identifier_msgs, msg, UUID)();
+[7.039s]       |                                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.441s] [ 72%] [32m[1mLinking CXX shared library libarm_hand_interface__rosidl_typesupport_introspection_cpp.so[0m
+[7.446s] [ 74%] [32m[1mLinking CXX shared library libarm_hand_interface__rosidl_typesupport_fastrtps_c.so[0m
+[7.474s] [ 76%] [32m[1mLinking CXX shared library libarm_hand_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.611s] [ 76%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c
+[7.626s] [ 76%] Built target arm_hand_interface__rosidl_typesupport_introspection_cpp
+[7.646s] [ 76%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_cpp
+[7.705s] [ 76%] Built target arm_hand_interface
+[7.774s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.751s] [ 78%] Built target arm_hand_interface__py
+[11.826s] [ 80%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_py.dir/rosidl_generator_py/arm_hand_interface/action/_dexterous_hand_s.c.o[0m
+[11.827s] [ 82%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_py.dir/rosidl_generator_py/arm_hand_interface/msg/_arm_status_s.c.o[0m
+[11.827s] [ 85%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_generator_py.dir/rosidl_generator_py/arm_hand_interface/action/_arm_vision_planning_s.c.o[0m
+[12.610s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/arm_hand_interface/libarm_hand_interface__rosidl_generator_py.so[0m
+[12.757s] [ 87%] Built target arm_hand_interface__rosidl_generator_py
+[12.818s] [ 89%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[12.819s] [ 91%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.824s] [ 93%] [32mBuilding C object CMakeFiles/arm_hand_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.416s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.430s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.435s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.547s] [100%] Built target arm_hand_interface__rosidl_typesupport_c__pyext
+[13.549s] [100%] Built target arm_hand_interface__rosidl_typesupport_introspection_c__pyext
+[13.552s] [100%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c__pyext

@@ -1,0 +1,446 @@
+[0.318s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.318s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72751f165090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72751f164a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72751f164a00>>, mixin_verb=('build',))
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.750s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ctg/jaka_HumanArm_v2'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_hand_interface) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_hand_interface' with type 'ros.ament_cmake' and name 'arm_hand_interface'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_cmake' and name 'robot_control'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_config) by extension 'ros'
+[0.809s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_moveit_config' with type 'ros.ament_cmake' and name 'robot_moveit_config'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit_interface) by extension 'ros'
+[0.811s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_moveit_interface' with type 'ros.ament_cmake' and name 'robot_moveit_interface'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_octomap_motion_planning) by extension 'ros'
+[0.815s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_octomap_motion_planning' with type 'ros.ament_cmake' and name 'robot_octomap_motion_planning'
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.897s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ctg/jaka_HumanArm_v2/install
+[0.902s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/ctg/dev_ws/install
+[0.907s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/humble
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.042s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_target' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.043s] Level 5:colcon.colcon_core.verb:set package 'arm_hand_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.043s] DEBUG:colcon.colcon_core.verb:Building package 'arm_hand_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface', 'symlink_install': False, 'test_result_base': None}
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.044s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/robot_description', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_target' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.046s] DEBUG:colcon.colcon_core.verb:Building package 'robot_moveit_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_interface', 'symlink_install': False, 'test_result_base': None}
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_args' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_target' from command line to 'None'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[1.048s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'cmake_force_configure' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'ament_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'robot_octomap_motion_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.049s] DEBUG:colcon.colcon_core.verb:Building package 'robot_octomap_motion_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning', 'symlink_install': False, 'test_result_base': None}
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/robot_control', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.051s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.052s] DEBUG:colcon.colcon_core.verb:Building package 'robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config', 'merge_install': False, 'path': '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[1.052s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.057s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface' with build type 'ament_cmake'
+[1.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface'
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.080s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/robot_description' with build type 'ament_cmake'
+[1.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/robot_description'
+[1.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_interface' with build type 'ament_cmake'
+[1.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_interface'
+[1.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning' with build type 'ament_cmake'
+[1.110s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning'
+[1.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface -- -j32 -l32
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_description -- -j32 -l32
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface -- -j32 -l32
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning -- -j32 -l32
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_description -- -j32 -l32
+[1.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface -- -j32 -l32
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_description
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning -- -j32 -l32
+[1.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_description
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description' for CMake module files
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description' for CMake config files
+[1.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/bin'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/lib/python3.10/site-packages'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/bin'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.zsh'
+[1.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_description/share/colcon-core/packages/robot_description)
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface
+[1.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit_interface)
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface' for CMake module files
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit_interface', 'cmake_prefix_path')
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/pkgconfig/robot_moveit_interface.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/python3.10/site-packages'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/bin'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.dsv'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.sh'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.bash'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.zsh'
+[1.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/colcon-core/packages/robot_moveit_interface)
+[1.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning
+[1.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description' for CMake module files
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description' for CMake config files
+[1.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/bin'
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/lib/python3.10/site-packages'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_description/bin'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.bash'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.zsh'
+[1.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_description/share/colcon-core/packages/robot_description)
+[1.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_config' with build type 'ament_cmake'
+[1.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/robot_moveit_config'
+[1.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_octomap_motion_planning)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning' for CMake module files
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning' for CMake config files
+[1.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_octomap_motion_planning', 'cmake_prefix_path')
+[1.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.sh'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/bin'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/pkgconfig/robot_octomap_motion_planning.pc'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/python3.10/site-packages'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/bin'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.ps1'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.sh'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.bash'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.zsh'
+[1.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/colcon-core/packages/robot_octomap_motion_planning)
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_config -- -j32 -l32
+[1.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit_interface)
+[1.645s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface' for CMake module files
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface' for CMake config files
+[1.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit_interface', 'cmake_prefix_path')
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.ps1'
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/hook/cmake_prefix_path.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/bin'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/pkgconfig/robot_moveit_interface.pc'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/python3.10/site-packages'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/bin'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.sh'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.bash'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.zsh'
+[1.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/colcon-core/packages/robot_moveit_interface)
+[1.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_config -- -j32 -l32
+[1.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_octomap_motion_planning)
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning' for CMake module files
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning' for CMake config files
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_octomap_motion_planning', 'cmake_prefix_path')
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.ps1'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.dsv'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/hook/cmake_prefix_path.sh'
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/bin'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/pkgconfig/robot_octomap_motion_planning.pc'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/python3.10/site-packages'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/bin'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.sh'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.bash'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.zsh'
+[1.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/colcon-core/packages/robot_octomap_motion_planning)
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_config
+[1.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit_config)
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config' for CMake module files
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_config
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config' for CMake config files
+[1.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit_config', 'cmake_prefix_path')
+[1.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.dsv'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.sh'
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/bin'
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/lib/pkgconfig/robot_moveit_config.pc'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/lib/python3.10/site-packages'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/bin'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.sh'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.bash'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.zsh'
+[1.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/colcon-core/packages/robot_moveit_config)
+[1.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit_config)
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config' for CMake module files
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config' for CMake config files
+[1.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit_config', 'cmake_prefix_path')
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/hook/cmake_prefix_path.sh'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/bin'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/lib/pkgconfig/robot_moveit_config.pc'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/lib/python3.10/site-packages'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/bin'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.bash'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.zsh'
+[1.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/colcon-core/packages/robot_moveit_config)
+[2.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface -- -j32 -l32
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_hand_interface)
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface' for CMake module files
+[2.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface
+[2.880s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface' for CMake config files
+[2.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_hand_interface', 'cmake_prefix_path')
+[2.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.sh'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib'
+[2.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_hand_interface', 'ld_library_path_lib')
+[2.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.dsv'
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.sh'
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/bin'
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/pkgconfig/arm_hand_interface.pc'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/python3.10/site-packages'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/bin'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.dsv'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.sh'
+[2.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.bash'
+[2.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.zsh'
+[2.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/colcon-core/packages/arm_hand_interface)
+[3.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_hand_interface)
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface' for CMake module files
+[3.469s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface' for CMake config files
+[3.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_hand_interface', 'cmake_prefix_path')
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.ps1'
+[3.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.dsv'
+[3.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/cmake_prefix_path.sh'
+[3.474s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib'
+[3.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_hand_interface', 'ld_library_path_lib')
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/hook/ld_library_path_lib.sh'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/bin'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/pkgconfig/arm_hand_interface.pc'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/python3.10/site-packages'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/bin'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.ps1'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.dsv'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.sh'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.bash'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.zsh'
+[3.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/colcon-core/packages/arm_hand_interface)
+[3.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctg/jaka_HumanArm_v2/src/robot_control' with build type 'ament_cmake'
+[3.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctg/jaka_HumanArm_v2/src/robot_control'
+[3.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_control': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_control -- -j32 -l32
+[37.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_control' returned '2': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_control -- -j32 -l32
+[37.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[37.656s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control' for CMake module files
+[37.657s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control' for CMake config files
+[37.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'cmake_prefix_path')
+[37.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/hook/cmake_prefix_path.ps1'
+[37.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/hook/cmake_prefix_path.dsv'
+[37.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/hook/cmake_prefix_path.sh'
+[37.662s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control/lib'
+[37.662s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control/bin'
+[37.662s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control/lib/pkgconfig/robot_control.pc'
+[37.662s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control/lib/python3.10/site-packages'
+[37.663s] Level 1:colcon.colcon_core.environment:checking '/home/ctg/jaka_HumanArm_v2/install/robot_control/bin'
+[37.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.ps1'
+[37.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.dsv'
+[37.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.sh'
+[37.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.bash'
+[37.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.zsh'
+[37.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctg/jaka_HumanArm_v2/install/robot_control/share/colcon-core/packages/robot_control)
+[37.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[37.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.703s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.735s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctg/jaka_HumanArm_v2/install/local_setup.ps1'
+[37.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ctg/jaka_HumanArm_v2/install/_local_setup_util_ps1.py'
+[37.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctg/jaka_HumanArm_v2/install/setup.ps1'
+[37.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctg/jaka_HumanArm_v2/install/local_setup.sh'
+[37.747s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ctg/jaka_HumanArm_v2/install/_local_setup_util_sh.py'
+[37.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctg/jaka_HumanArm_v2/install/setup.sh'
+[37.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctg/jaka_HumanArm_v2/install/local_setup.bash'
+[37.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctg/jaka_HumanArm_v2/install/setup.bash'
+[37.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctg/jaka_HumanArm_v2/install/local_setup.zsh'
+[37.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctg/jaka_HumanArm_v2/install/setup.zsh'

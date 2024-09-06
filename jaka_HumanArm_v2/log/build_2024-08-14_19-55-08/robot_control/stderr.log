@@ -1,0 +1,16 @@
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse robot_control::handle_goal_hand(const GoalUUID&, std::shared_ptr<const arm_hand_interface::action::DexterousHand_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:594:142:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  594 | ::GoalResponse robot_control ::handle_goal_hand(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const DexterousHand::Goal> goal[m[K)
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse robot_control::handle_cancel_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)[m[K’:
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:603:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  603 | rclcpp_action::CancelResponse robot_control ::handle_cancel_hand([01;35m[Kconst std::shared_ptr<GoalHandleDexterousHand> goal_handle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:[m[K In member function ‘[01m[Kvoid robot_control::execute_move_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)[m[K’:
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:651:53:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  651 |         } while (false == [01;35m[Kabs(R_ByteArray[0] - 999) <= 10[m[K && abs(R_ByteArray[1] - 999) <= 10 && abs(R_ByteArray[2] - 999) <= 10 && abs(R_ByteArray[3] - 999) <= 10 && abs(R_ByteArray[4] - 1000) <= 10 && abs(R_ByteArray[5] - 1000) <= 10);
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:704:53:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  704 |         } while (false == [01;35m[Kabs(R_ByteArray[0] - 999) <= 10[m[K && abs(R_ByteArray[1] - 999) <= 10 && abs(R_ByteArray[2] - 999) <= 10 && abs(R_ByteArray[3] - 999) <= 10 && abs(R_ByteArray[4] - 1000) <= 10 && abs(R_ByteArray[5] - 1000) <= 10);
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

@@ -1,0 +1,1109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (arm_hand_interface) JobQueued: {'identifier': 'arm_hand_interface', 'dependencies': OrderedDict()}
+[0.000463] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000503] (robot_moveit_interface) JobQueued: {'identifier': 'robot_moveit_interface', 'dependencies': OrderedDict()}
+[0.000536] (robot_octomap_motion_planning) JobQueued: {'identifier': 'robot_octomap_motion_planning', 'dependencies': OrderedDict()}
+[0.000567] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict([('arm_hand_interface', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface')])}
+[0.000645] (robot_moveit_config) JobQueued: {'identifier': 'robot_moveit_config', 'dependencies': OrderedDict([('robot_description', '/home/ctg/jaka_HumanArm_v2/install/robot_description')])}
+[0.000689] (arm_hand_interface) JobStarted: {'identifier': 'arm_hand_interface'}
+[0.030532] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.046024] (robot_moveit_interface) JobStarted: {'identifier': 'robot_moveit_interface'}
+[0.060286] (robot_octomap_motion_planning) JobStarted: {'identifier': 'robot_octomap_motion_planning'}
+[0.076539] (arm_hand_interface) JobProgress: {'identifier': 'arm_hand_interface', 'progress': 'cmake'}
+[0.082526] (arm_hand_interface) JobProgress: {'identifier': 'arm_hand_interface', 'progress': 'build'}
+[0.083308] (arm_hand_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.085451] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.089884] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.089987] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_description', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.095738] (robot_moveit_interface) JobProgress: {'identifier': 'robot_moveit_interface', 'progress': 'cmake'}
+[0.101182] (-) TimerEvent: {}
+[0.106021] (robot_moveit_interface) JobProgress: {'identifier': 'robot_moveit_interface', 'progress': 'build'}
+[0.106105] (robot_moveit_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.117207] (robot_octomap_motion_planning) JobProgress: {'identifier': 'robot_octomap_motion_planning', 'progress': 'cmake'}
+[0.208072] (-) TimerEvent: {}
+[0.229729] (robot_octomap_motion_planning) JobProgress: {'identifier': 'robot_octomap_motion_planning', 'progress': 'build'}
+[0.230101] (robot_octomap_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.399386] (-) TimerEvent: {}
+[0.514550] (-) TimerEvent: {}
+[0.554788] (robot_description) CommandEnded: {'returncode': 0}
+[0.615140] (-) TimerEvent: {}
+[0.697866] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.698085] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/robot_description'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[0.717883] (-) TimerEvent: {}
+[0.795282] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.795610] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes\n'}
+[0.795895] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/base_link.STL\n'}
+[0.798213] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r5.STL\n'}
+[0.798722] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r2.STL\n'}
+[0.802681] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r4.STL\n'}
+[0.802760] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/rt.STL\n'}
+[0.802878] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r1.STL\n'}
+[0.802911] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r3.STL\n'}
+[0.802943] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//meshes/r6.STL\n'}
+[0.802995] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//urdf\n'}
+[0.803028] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//urdf/urdf.urdf\n'}
+[0.803078] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//urdf/urdf.csv\n'}
+[0.803114] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//launch\n'}
+[0.803146] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//launch/display.launch.py\n'}
+[0.803194] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//rviz\n'}
+[0.803227] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description//rviz/urdf.rviz\n'}
+[0.803267] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.803582] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.803847] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.803906] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.804190] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.804934] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.805690] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.805733] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.806090] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.806218] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.806832] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.dsv\n'}
+[0.807529] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.807643] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.809176] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.809320] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/package.xml\n'}
+[0.809434] (robot_description) CommandEnded: {'returncode': 0}
+[0.817955] (-) TimerEvent: {}
+[0.921994] (-) TimerEvent: {}
+[1.022728] (-) TimerEvent: {}
+[1.127138] (-) TimerEvent: {}
+[1.228200] (-) TimerEvent: {}
+[1.240292] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[1.241264] (robot_moveit_config) JobStarted: {'identifier': 'robot_moveit_config'}
+[1.242195] (arm_hand_interface) StdoutLine: {'line': b'[  2%] Built target arm_hand_interface__cpp\n'}
+[1.261893] (robot_moveit_interface) StdoutLine: {'line': b'[100%] Built target robot_moveit_interface\n'}
+[1.270282] (robot_moveit_config) JobProgress: {'identifier': 'robot_moveit_config', 'progress': 'cmake'}
+[1.291998] (robot_moveit_config) JobProgress: {'identifier': 'robot_moveit_config', 'progress': 'build'}
+[1.292068] (robot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/robot_description:/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[1.299347] (robot_moveit_interface) CommandEnded: {'returncode': 0}
+[1.361277] (-) TimerEvent: {}
+[1.444112] (arm_hand_interface) StdoutLine: {'line': b'[ 12%] Built target arm_hand_interface__rosidl_generator_c\n'}
+[1.466669] (-) TimerEvent: {}
+[1.523945] (arm_hand_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_arm_hand_interface\n'}
+[1.531140] (arm_hand_interface) StdoutLine: {'line': b'[ 23%] Built target arm_hand_interface__rosidl_typesupport_introspection_cpp\n'}
+[1.605985] (arm_hand_interface) StdoutLine: {'line': b'[ 34%] Built target arm_hand_interface__rosidl_typesupport_cpp\n'}
+[1.606436] (-) TimerEvent: {}
+[1.668849] (arm_hand_interface) StdoutLine: {'line': b'[ 44%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[1.707289] (-) TimerEvent: {}
+[1.737525] (arm_hand_interface) StdoutLine: {'line': b'[ 55%] Built target arm_hand_interface__rosidl_typesupport_c\n'}
+[1.755576] (arm_hand_interface) StdoutLine: {'line': b'[ 65%] Built target arm_hand_interface__rosidl_typesupport_introspection_c\n'}
+[1.922155] (-) TimerEvent: {}
+[1.926070] (robot_moveit_interface) JobProgress: {'identifier': 'robot_moveit_interface', 'progress': 'install'}
+[1.926117] (robot_moveit_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[1.944242] (robot_moveit_config) CommandEnded: {'returncode': 0}
+[1.960951] (robot_octomap_motion_planning) StdoutLine: {'line': b'[100%] Built target robot_octomap_motion_planning\n'}
+[1.996660] (robot_octomap_motion_planning) CommandEnded: {'returncode': 0}
+[2.107629] (-) TimerEvent: {}
+[2.128622] (robot_moveit_interface) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.128934] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/robot_moveit_interface/robot_moveit_interface\n'}
+[2.129968] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/launch\n'}
+[2.130103] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/launch/robot_moveit_interface.launch.py\n'}
+[2.130238] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/package_run_dependencies/robot_moveit_interface\n'}
+[2.130349] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/parent_prefix_path/robot_moveit_interface\n'}
+[2.130454] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/ament_prefix_path.sh\n'}
+[2.130829] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/ament_prefix_path.dsv\n'}
+[2.130942] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/path.sh\n'}
+[2.131049] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/path.dsv\n'}
+[2.131152] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.bash\n'}
+[2.131257] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.sh\n'}
+[2.131367] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.zsh\n'}
+[2.131469] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.dsv\n'}
+[2.131579] (robot_moveit_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.dsv\n'}
+[2.131684] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/packages/robot_moveit_interface\n'}
+[2.131792] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.131899] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.132003] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/robot_moveit_interfaceConfig.cmake\n'}
+[2.132106] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/robot_moveit_interfaceConfig-version.cmake\n'}
+[2.132209] (robot_moveit_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.xml\n'}
+[2.134642] (robot_moveit_interface) CommandEnded: {'returncode': 0}
+[2.194176] (arm_hand_interface) StdoutLine: {'line': b'[ 76%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c\n'}
+[2.210702] (robot_moveit_config) JobProgress: {'identifier': 'robot_moveit_config', 'progress': 'install'}
+[2.210806] (-) TimerEvent: {}
+[2.211048] (robot_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/robot_description:/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[2.311939] (-) TimerEvent: {}
+[2.323692] (robot_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.324009] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/robot_moveit_config\n'}
+[2.324140] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/robot_moveit_config\n'}
+[2.324262] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/environment/ament_prefix_path.sh\n'}
+[2.324371] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/environment/ament_prefix_path.dsv\n'}
+[2.324475] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/environment/path.sh\n'}
+[2.324580] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/environment/path.dsv\n'}
+[2.325232] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/local_setup.bash\n'}
+[2.325292] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/local_setup.sh\n'}
+[2.325341] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/local_setup.zsh\n'}
+[2.326842] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/local_setup.dsv\n'}
+[2.326926] (robot_moveit_config) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.dsv\n'}
+[2.333910] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/ament_index/resource_index/packages/robot_moveit_config\n'}
+[2.334123] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/cmake/robot_moveit_configConfig.cmake\n'}
+[2.334161] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/cmake/robot_moveit_configConfig-version.cmake\n'}
+[2.334595] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/package.xml\n'}
+[2.334756] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch\n'}
+[2.334873] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/setup_assistant.launch.py\n'}
+[2.334981] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[2.335087] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/demo.launch.py\n'}
+[2.335191] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/realRobot2.launch.py\n'}
+[2.335297] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/spawn_controllers.launch.py\n'}
+[2.335401] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/rsp.launch.py\n'}
+[2.335507] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/realRobot.launch.py\n'}
+[2.335626] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/moveit_rviz.launch.py\n'}
+[2.335874] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/move_group.launch.py\n'}
+[2.335997] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/launch/warehouse_db.launch.py\n'}
+[2.336102] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config\n'}
+[2.336208] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[2.342603] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/urdf.srdf\n'}
+[2.342954] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/kinematics.yaml\n'}
+[2.343138] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/ros2_controllers.yaml\n'}
+[2.343256] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/urdf.ros2_control.xacro\n'}
+[2.343539] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/joint_limits.yaml\n'}
+[2.343687] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/sensors_3d.yaml\n'}
+[2.343905] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/moveit.rviz\n'}
+[2.344028] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/initial_positions.yaml\n'}
+[2.344137] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/urdf.urdf.xacro\n'}
+[2.344243] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/config/moveit_controllers.yaml\n'}
+[2.344672] (robot_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/.setup_assistant\n'}
+[2.349147] (robot_moveit_config) CommandEnded: {'returncode': 0}
+[2.363758] (arm_hand_interface) StdoutLine: {'line': b'[ 76%] Built target arm_hand_interface\n'}
+[2.367495] (robot_octomap_motion_planning) JobProgress: {'identifier': 'robot_octomap_motion_planning', 'progress': 'install'}
+[2.367581] (robot_octomap_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[2.400031] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.414344] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/robot_octomap_motion_planning/robot_octomap_motion_planning\n'}
+[2.414749] (-) TimerEvent: {}
+[2.415000] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/launch\n'}
+[2.415193] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/launch/robot_octomap_motion_planning.launch.py\n'}
+[2.415408] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/package_run_dependencies/robot_octomap_motion_planning\n'}
+[2.415485] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/parent_prefix_path/robot_octomap_motion_planning\n'}
+[2.415534] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/ament_prefix_path.sh\n'}
+[2.415581] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/ament_prefix_path.dsv\n'}
+[2.415626] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/path.sh\n'}
+[2.415670] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/path.dsv\n'}
+[2.415714] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.bash\n'}
+[2.417169] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.sh\n'}
+[2.417374] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.zsh\n'}
+[2.417500] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.dsv\n'}
+[2.417611] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.dsv\n'}
+[2.421733] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/packages/robot_octomap_motion_planning\n'}
+[2.421820] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.421869] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.421915] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/robot_octomap_motion_planningConfig.cmake\n'}
+[2.423891] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/robot_octomap_motion_planningConfig-version.cmake\n'}
+[2.427770] (robot_octomap_motion_planning) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.xml\n'}
+[2.566667] (-) TimerEvent: {}
+[2.645624] (robot_octomap_motion_planning) CommandEnded: {'returncode': 0}
+[2.667039] (-) TimerEvent: {}
+[2.778017] (-) TimerEvent: {}
+[2.818183] (arm_hand_interface) StdoutLine: {'line': b'[ 78%] Built target arm_hand_interface__py\n'}
+[2.820771] (robot_moveit_config) JobEnded: {'identifier': 'robot_moveit_config', 'rc': 0}
+[2.843551] (arm_hand_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.843695] (arm_hand_interface) StdoutLine: {'line': b'writing arm_hand_interface.egg-info/PKG-INFO\n'}
+[2.843746] (arm_hand_interface) StdoutLine: {'line': b'writing dependency_links to arm_hand_interface.egg-info/dependency_links.txt\n'}
+[2.847777] (arm_hand_interface) StdoutLine: {'line': b'writing top-level names to arm_hand_interface.egg-info/top_level.txt\n'}
+[2.871671] (robot_moveit_interface) JobEnded: {'identifier': 'robot_moveit_interface', 'rc': 0}
+[2.874589] (arm_hand_interface) StdoutLine: {'line': b"reading manifest file 'arm_hand_interface.egg-info/SOURCES.txt'\n"}
+[3.013700] (arm_hand_interface) StdoutLine: {'line': b"writing manifest file 'arm_hand_interface.egg-info/SOURCES.txt'\n"}
+[3.013944] (-) TimerEvent: {}
+[3.070076] (arm_hand_interface) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_arm_hand_interface_egg\n'}
+[3.079334] (robot_octomap_motion_planning) JobEnded: {'identifier': 'robot_octomap_motion_planning', 'rc': 0}
+[3.113571] (arm_hand_interface) StdoutLine: {'line': b'[ 87%] Built target arm_hand_interface__rosidl_generator_py\n'}
+[3.114287] (-) TimerEvent: {}
+[3.215861] (-) TimerEvent: {}
+[3.309963] (arm_hand_interface) StdoutLine: {'line': b'[ 91%] Built target arm_hand_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[3.310285] (arm_hand_interface) StdoutLine: {'line': b'[ 95%] Built target arm_hand_interface__rosidl_typesupport_c__pyext\n'}
+[3.315950] (-) TimerEvent: {}
+[3.316361] (arm_hand_interface) StdoutLine: {'line': b'[100%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.419644] (-) TimerEvent: {}
+[3.529595] (-) TimerEvent: {}
+[3.558266] (arm_hand_interface) CommandEnded: {'returncode': 0}
+[3.644782] (-) TimerEvent: {}
+[3.751802] (-) TimerEvent: {}
+[3.875287] (-) TimerEvent: {}
+[3.976521] (-) TimerEvent: {}
+[4.092729] (-) TimerEvent: {}
+[4.193854] (-) TimerEvent: {}
+[4.353942] (-) TimerEvent: {}
+[4.455275] (-) TimerEvent: {}
+[4.592976] (-) TimerEvent: {}
+[4.694973] (-) TimerEvent: {}
+[4.708335] (arm_hand_interface) JobProgress: {'identifier': 'arm_hand_interface', 'progress': 'install'}
+[4.708397] (arm_hand_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[4.732892] (arm_hand_interface) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.733300] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/rosidl_interfaces/arm_hand_interface\n'}
+[4.733360] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.733874] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.734230] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.734427] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/arm_status.h\n'}
+[4.734583] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.734725] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__functions.c\n'}
+[4.734840] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.h\n'}
+[4.735082] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__functions.h\n'}
+[4.735289] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__struct.h\n'}
+[4.735411] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.735521] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/arm_vision_planning.h\n'}
+[4.735631] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.735927] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__functions.h\n'}
+[4.736184] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__struct.h\n'}
+[4.736312] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.h\n'}
+[4.736421] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__functions.c\n'}
+[4.737648] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__functions.h\n'}
+[4.737798] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__struct.h\n'}
+[4.737934] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.h\n'}
+[4.738046] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__functions.c\n'}
+[4.738192] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/dexterous_hand.h\n'}
+[4.738326] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/library_path.sh\n'}
+[4.738442] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/library_path.dsv\n'}
+[4.738745] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_generator_c.so\n'}
+[4.739252] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.739412] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.739676] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.739800] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.739919] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.740029] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.740136] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.740245] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h\n'}
+[4.740356] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h\n'}
+[4.741586] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[4.742370] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.742531] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.743147] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.743388] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__traits.hpp\n'}
+[4.743516] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__struct.hpp\n'}
+[4.743930] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__builder.hpp\n'}
+[4.744160] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/arm_status.hpp\n'}
+[4.744337] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.744510] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/arm_vision_planning.hpp\n'}
+[4.744724] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.745054] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__traits.hpp\n'}
+[4.745289] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__builder.hpp\n'}
+[4.745663] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__builder.hpp\n'}
+[4.745807] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__struct.hpp\n'}
+[4.745949] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__struct.hpp\n'}
+[4.746163] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__traits.hpp\n'}
+[4.746276] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/dexterous_hand.hpp\n'}
+[4.746585] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.746791] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.747051] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.747297] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/dds_fastrtps\n'}
+[4.747428] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.747542] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.747660] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.748134] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.748369] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dds_fastrtps\n'}
+[4.748686] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.748806] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.748921] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.749032] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.749139] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.749245] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.749351] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.749685] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_introspection_c.h\n'}
+[4.749800] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.c\n'}
+[4.749912] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.750020] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.750127] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_introspection_c.h\n'}
+[4.750232] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_introspection_c.h\n'}
+[4.750338] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.c\n'}
+[4.750443] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.c\n'}
+[4.751570] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_introspection_c.so\n'}
+[4.753917] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_c.so\n'}
+[4.754578] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface\n'}
+[4.754680] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg\n'}
+[4.754740] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail\n'}
+[4.754782] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.cpp\n'}
+[4.755312] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.755706] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action\n'}
+[4.755834] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail\n'}
+[4.755945] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.756089] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.756208] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.cpp\n'}
+[4.756327] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.cpp\n'}
+[4.759015] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[4.765529] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_cpp.so\n'}
+[4.766037] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/pythonpath.sh\n'}
+[4.766327] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/pythonpath.dsv\n'}
+[4.766560] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info\n'}
+[4.766754] (arm_hand_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.767258] (arm_hand_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.767533] (arm_hand_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.767668] (arm_hand_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.768319] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface\n'}
+[4.768392] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_c.c\n'}
+[4.768441] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.768486] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg\n'}
+[4.768528] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/_arm_status_s.c\n'}
+[4.768569] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/_arm_status.py\n'}
+[4.768623] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/__init__.py\n'}
+[4.768663] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/libarm_hand_interface__rosidl_generator_py.so\n'}
+[4.768721] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action\n'}
+[4.769173] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_arm_vision_planning_s.c\n'}
+[4.769262] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_dexterous_hand_s.c\n'}
+[4.769723] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_arm_vision_planning.py\n'}
+[4.783024] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_dexterous_hand.py\n'}
+[4.783641] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/__init__.py\n'}
+[4.783774] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.783886] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/__init__.py\n'}
+[4.783993] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.784099] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.784212] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.795189] (-) TimerEvent: {}
+[4.896285] (-) TimerEvent: {}
+[4.903582] (arm_hand_interface) StdoutLine: {'line': b"Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface'...\n"}
+[4.903886] (arm_hand_interface) StdoutLine: {'line': b"Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action'...\n"}
+[4.904165] (arm_hand_interface) StdoutLine: {'line': b"Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg'...\n"}
+[4.914968] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.919122] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.922621] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.924341] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_generator_py.so\n'}
+[4.925112] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/msg/ArmStatus.idl\n'}
+[4.925341] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/ArmVisionPlanning.idl\n'}
+[4.925484] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/DexterousHand.idl\n'}
+[4.925789] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/msg/ArmStatus.msg\n'}
+[4.925973] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/ArmVisionPlanning.action\n'}
+[4.926827] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/DexterousHand.action\n'}
+[4.926984] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/package_run_dependencies/arm_hand_interface\n'}
+[4.927258] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/parent_prefix_path/arm_hand_interface\n'}
+[4.927605] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/ament_prefix_path.sh\n'}
+[4.927760] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/ament_prefix_path.dsv\n'}
+[4.927920] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/path.sh\n'}
+[4.928036] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/path.dsv\n'}
+[4.928149] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.bash\n'}
+[4.928256] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.sh\n'}
+[4.928364] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.zsh\n'}
+[4.928619] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.dsv\n'}
+[4.928832] (arm_hand_interface) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.dsv\n'}
+[4.929273] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/packages/arm_hand_interface\n'}
+[4.930278] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cExport.cmake\n'}
+[4.930659] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cExport-release.cmake\n'}
+[4.934905] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.935159] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[4.935707] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cppExport.cmake\n'}
+[4.936935] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.937184] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[4.938115] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.938390] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[4.939545] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cExport.cmake\n'}
+[4.939660] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cExport-release.cmake\n'}
+[4.940854] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.941335] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[4.945568] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cppExport.cmake\n'}
+[4.945797] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cppExport-release.cmake\n'}
+[4.947653] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_pyExport.cmake\n'}
+[4.948176] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_pyExport-release.cmake\n'}
+[4.948328] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[4.948513] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.948635] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.948745] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.948934] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.949064] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.949176] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.949283] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interfaceConfig.cmake\n'}
+[4.949398] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interfaceConfig-version.cmake\n'}
+[4.949507] (arm_hand_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.xml\n'}
+[4.964593] (arm_hand_interface) CommandEnded: {'returncode': 0}
+[5.070712] (-) TimerEvent: {}
+[5.171320] (-) TimerEvent: {}
+[5.271648] (-) TimerEvent: {}
+[5.372821] (-) TimerEvent: {}
+[5.473973] (-) TimerEvent: {}
+[5.643619] (-) TimerEvent: {}
+[5.660864] (arm_hand_interface) JobEnded: {'identifier': 'arm_hand_interface', 'rc': 0}
+[5.666306] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[5.758974] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'cmake'}
+[5.759156] (-) TimerEvent: {}
+[5.795100] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'build'}
+[5.795183] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctg/jaka_HumanArm_v2/build/robot_control', '--', '-j32', '-l32'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[5.860577] (-) TimerEvent: {}
+[6.056974] (-) TimerEvent: {}
+[6.126590] (robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_control\x1b[0m\n'}
+[6.157999] (-) TimerEvent: {}
+[6.202869] (robot_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o\x1b[0m\n'}
+[6.258946] (-) TimerEvent: {}
+[6.359861] (-) TimerEvent: {}
+[6.461238] (-) TimerEvent: {}
+[6.562172] (-) TimerEvent: {}
+[6.662778] (-) TimerEvent: {}
+[6.763306] (-) TimerEvent: {}
+[6.863810] (-) TimerEvent: {}
+[6.964603] (-) TimerEvent: {}
+[7.065985] (-) TimerEvent: {}
+[7.166655] (-) TimerEvent: {}
+[7.267390] (-) TimerEvent: {}
+[7.369156] (-) TimerEvent: {}
+[7.469619] (-) TimerEvent: {}
+[7.570186] (-) TimerEvent: {}
+[7.671071] (-) TimerEvent: {}
+[7.771680] (-) TimerEvent: {}
+[7.873266] (-) TimerEvent: {}
+[7.973787] (-) TimerEvent: {}
+[8.074356] (-) TimerEvent: {}
+[8.175762] (-) TimerEvent: {}
+[8.276846] (-) TimerEvent: {}
+[8.377996] (-) TimerEvent: {}
+[8.478691] (-) TimerEvent: {}
+[8.579695] (-) TimerEvent: {}
+[8.680919] (-) TimerEvent: {}
+[8.781643] (-) TimerEvent: {}
+[8.882238] (-) TimerEvent: {}
+[8.983184] (-) TimerEvent: {}
+[9.084315] (-) TimerEvent: {}
+[9.185316] (-) TimerEvent: {}
+[9.363874] (-) TimerEvent: {}
+[9.464613] (-) TimerEvent: {}
+[9.565729] (-) TimerEvent: {}
+[9.666373] (-) TimerEvent: {}
+[9.768172] (-) TimerEvent: {}
+[9.869689] (-) TimerEvent: {}
+[9.971280] (-) TimerEvent: {}
+[10.072198] (-) TimerEvent: {}
+[10.173040] (-) TimerEvent: {}
+[10.274192] (-) TimerEvent: {}
+[10.374951] (-) TimerEvent: {}
+[10.475727] (-) TimerEvent: {}
+[10.576646] (-) TimerEvent: {}
+[10.677159] (-) TimerEvent: {}
+[10.777912] (-) TimerEvent: {}
+[10.878373] (-) TimerEvent: {}
+[10.979214] (-) TimerEvent: {}
+[11.080127] (-) TimerEvent: {}
+[11.180758] (-) TimerEvent: {}
+[11.281773] (-) TimerEvent: {}
+[11.382358] (-) TimerEvent: {}
+[11.483599] (-) TimerEvent: {}
+[11.584270] (-) TimerEvent: {}
+[11.685121] (-) TimerEvent: {}
+[11.786080] (-) TimerEvent: {}
+[11.886878] (-) TimerEvent: {}
+[11.987697] (-) TimerEvent: {}
+[12.088626] (-) TimerEvent: {}
+[12.189204] (-) TimerEvent: {}
+[12.290088] (-) TimerEvent: {}
+[12.391643] (-) TimerEvent: {}
+[12.492189] (-) TimerEvent: {}
+[12.592984] (-) TimerEvent: {}
+[12.694126] (-) TimerEvent: {}
+[12.795070] (-) TimerEvent: {}
+[12.895833] (-) TimerEvent: {}
+[12.997648] (-) TimerEvent: {}
+[13.098223] (-) TimerEvent: {}
+[13.199201] (-) TimerEvent: {}
+[13.300670] (-) TimerEvent: {}
+[13.401716] (-) TimerEvent: {}
+[13.502619] (-) TimerEvent: {}
+[13.604102] (-) TimerEvent: {}
+[13.704658] (-) TimerEvent: {}
+[13.805278] (-) TimerEvent: {}
+[13.906058] (-) TimerEvent: {}
+[14.006923] (-) TimerEvent: {}
+[14.107892] (-) TimerEvent: {}
+[14.208366] (-) TimerEvent: {}
+[14.309387] (-) TimerEvent: {}
+[14.410344] (-) TimerEvent: {}
+[14.511640] (-) TimerEvent: {}
+[14.613212] (-) TimerEvent: {}
+[14.713791] (-) TimerEvent: {}
+[14.814368] (-) TimerEvent: {}
+[14.915300] (-) TimerEvent: {}
+[15.016310] (-) TimerEvent: {}
+[15.116856] (-) TimerEvent: {}
+[15.217610] (-) TimerEvent: {}
+[15.318672] (-) TimerEvent: {}
+[15.419337] (-) TimerEvent: {}
+[15.528962] (-) TimerEvent: {}
+[15.656241] (-) TimerEvent: {}
+[15.760300] (-) TimerEvent: {}
+[15.862197] (-) TimerEvent: {}
+[15.963654] (-) TimerEvent: {}
+[16.064258] (-) TimerEvent: {}
+[16.164960] (-) TimerEvent: {}
+[16.266646] (-) TimerEvent: {}
+[16.367622] (-) TimerEvent: {}
+[16.468267] (-) TimerEvent: {}
+[16.569348] (-) TimerEvent: {}
+[16.670041] (-) TimerEvent: {}
+[16.770994] (-) TimerEvent: {}
+[16.872468] (-) TimerEvent: {}
+[16.974317] (-) TimerEvent: {}
+[17.074865] (-) TimerEvent: {}
+[17.175771] (-) TimerEvent: {}
+[17.276314] (-) TimerEvent: {}
+[17.376996] (-) TimerEvent: {}
+[17.478012] (-) TimerEvent: {}
+[17.579273] (-) TimerEvent: {}
+[17.679778] (-) TimerEvent: {}
+[17.781126] (-) TimerEvent: {}
+[17.882268] (-) TimerEvent: {}
+[17.982713] (-) TimerEvent: {}
+[18.083744] (-) TimerEvent: {}
+[18.186214] (-) TimerEvent: {}
+[18.286975] (-) TimerEvent: {}
+[18.388649] (-) TimerEvent: {}
+[18.489625] (-) TimerEvent: {}
+[18.590672] (-) TimerEvent: {}
+[18.692603] (-) TimerEvent: {}
+[18.793241] (-) TimerEvent: {}
+[18.894067] (-) TimerEvent: {}
+[18.994706] (-) TimerEvent: {}
+[19.095900] (-) TimerEvent: {}
+[19.196598] (-) TimerEvent: {}
+[19.297676] (-) TimerEvent: {}
+[19.398811] (-) TimerEvent: {}
+[19.499845] (-) TimerEvent: {}
+[19.600808] (-) TimerEvent: {}
+[19.702359] (-) TimerEvent: {}
+[19.803101] (-) TimerEvent: {}
+[19.904423] (-) TimerEvent: {}
+[20.005628] (-) TimerEvent: {}
+[20.106192] (-) TimerEvent: {}
+[20.206924] (-) TimerEvent: {}
+[20.308379] (-) TimerEvent: {}
+[20.408823] (-) TimerEvent: {}
+[20.509641] (-) TimerEvent: {}
+[20.610607] (-) TimerEvent: {}
+[20.711634] (-) TimerEvent: {}
+[20.813071] (-) TimerEvent: {}
+[20.915788] (-) TimerEvent: {}
+[21.016958] (-) TimerEvent: {}
+[21.118105] (-) TimerEvent: {}
+[21.219583] (-) TimerEvent: {}
+[21.320616] (-) TimerEvent: {}
+[21.421695] (-) TimerEvent: {}
+[21.522832] (-) TimerEvent: {}
+[21.698606] (-) TimerEvent: {}
+[21.810755] (-) TimerEvent: {}
+[21.911720] (-) TimerEvent: {}
+[22.016157] (-) TimerEvent: {}
+[22.140854] (-) TimerEvent: {}
+[22.242021] (-) TimerEvent: {}
+[22.343310] (-) TimerEvent: {}
+[22.472898] (-) TimerEvent: {}
+[22.573879] (-) TimerEvent: {}
+[22.739761] (-) TimerEvent: {}
+[22.849026] (-) TimerEvent: {}
+[22.949902] (-) TimerEvent: {}
+[23.051078] (-) TimerEvent: {}
+[23.200136] (-) TimerEvent: {}
+[23.302140] (-) TimerEvent: {}
+[23.433830] (-) TimerEvent: {}
+[23.535539] (-) TimerEvent: {}
+[23.636103] (-) TimerEvent: {}
+[23.736613] (-) TimerEvent: {}
+[23.837166] (-) TimerEvent: {}
+[23.937976] (-) TimerEvent: {}
+[24.038641] (-) TimerEvent: {}
+[24.139775] (-) TimerEvent: {}
+[24.240380] (-) TimerEvent: {}
+[24.341215] (-) TimerEvent: {}
+[24.441970] (-) TimerEvent: {}
+[24.543216] (-) TimerEvent: {}
+[24.645226] (-) TimerEvent: {}
+[24.746643] (-) TimerEvent: {}
+[24.931615] (-) TimerEvent: {}
+[25.033635] (-) TimerEvent: {}
+[25.134376] (-) TimerEvent: {}
+[25.235164] (-) TimerEvent: {}
+[25.336072] (-) TimerEvent: {}
+[25.437072] (-) TimerEvent: {}
+[25.538310] (-) TimerEvent: {}
+[25.639933] (-) TimerEvent: {}
+[25.740572] (-) TimerEvent: {}
+[25.841145] (-) TimerEvent: {}
+[25.943148] (-) TimerEvent: {}
+[26.043863] (-) TimerEvent: {}
+[26.144622] (-) TimerEvent: {}
+[26.245800] (-) TimerEvent: {}
+[26.346630] (-) TimerEvent: {}
+[26.447630] (-) TimerEvent: {}
+[26.548219] (-) TimerEvent: {}
+[26.648964] (-) TimerEvent: {}
+[26.749543] (-) TimerEvent: {}
+[26.850239] (-) TimerEvent: {}
+[26.951116] (-) TimerEvent: {}
+[27.052178] (-) TimerEvent: {}
+[27.162329] (-) TimerEvent: {}
+[27.263584] (-) TimerEvent: {}
+[27.364162] (-) TimerEvent: {}
+[27.464722] (-) TimerEvent: {}
+[27.565583] (-) TimerEvent: {}
+[27.666064] (-) TimerEvent: {}
+[27.767376] (-) TimerEvent: {}
+[27.868266] (-) TimerEvent: {}
+[27.969257] (-) TimerEvent: {}
+[28.069688] (-) TimerEvent: {}
+[28.202790] (-) TimerEvent: {}
+[28.303819] (-) TimerEvent: {}
+[28.405657] (-) TimerEvent: {}
+[28.506239] (-) TimerEvent: {}
+[28.606995] (-) TimerEvent: {}
+[28.708020] (-) TimerEvent: {}
+[28.808598] (-) TimerEvent: {}
+[28.909354] (-) TimerEvent: {}
+[29.009809] (-) TimerEvent: {}
+[29.110076] (-) TimerEvent: {}
+[29.210886] (-) TimerEvent: {}
+[29.311849] (-) TimerEvent: {}
+[29.412679] (-) TimerEvent: {}
+[29.514179] (-) TimerEvent: {}
+[29.614962] (-) TimerEvent: {}
+[29.717942] (-) TimerEvent: {}
+[29.818655] (-) TimerEvent: {}
+[29.919148] (-) TimerEvent: {}
+[30.020887] (-) TimerEvent: {}
+[30.121727] (-) TimerEvent: {}
+[30.222304] (-) TimerEvent: {}
+[30.323263] (-) TimerEvent: {}
+[30.424623] (-) TimerEvent: {}
+[30.605956] (-) TimerEvent: {}
+[30.707153] (-) TimerEvent: {}
+[30.807988] (-) TimerEvent: {}
+[30.909143] (-) TimerEvent: {}
+[31.013033] (-) TimerEvent: {}
+[31.114386] (-) TimerEvent: {}
+[31.215160] (-) TimerEvent: {}
+[31.316799] (-) TimerEvent: {}
+[31.418811] (-) TimerEvent: {}
+[31.519684] (-) TimerEvent: {}
+[31.621986] (-) TimerEvent: {}
+[31.722717] (-) TimerEvent: {}
+[31.823611] (-) TimerEvent: {}
+[31.924627] (-) TimerEvent: {}
+[32.025635] (-) TimerEvent: {}
+[32.126325] (-) TimerEvent: {}
+[32.227206] (-) TimerEvent: {}
+[32.328189] (-) TimerEvent: {}
+[32.428808] (-) TimerEvent: {}
+[32.529190] (-) TimerEvent: {}
+[32.629687] (-) TimerEvent: {}
+[32.730659] (-) TimerEvent: {}
+[32.831197] (-) TimerEvent: {}
+[32.932610] (-) TimerEvent: {}
+[33.033200] (-) TimerEvent: {}
+[33.134601] (-) TimerEvent: {}
+[33.236189] (-) TimerEvent: {}
+[33.337551] (-) TimerEvent: {}
+[33.438027] (-) TimerEvent: {}
+[33.538767] (-) TimerEvent: {}
+[33.639558] (-) TimerEvent: {}
+[33.740305] (-) TimerEvent: {}
+[33.840783] (-) TimerEvent: {}
+[33.941631] (-) TimerEvent: {}
+[34.042214] (-) TimerEvent: {}
+[34.144017] (-) TimerEvent: {}
+[34.244697] (-) TimerEvent: {}
+[34.345403] (-) TimerEvent: {}
+[34.447072] (-) TimerEvent: {}
+[34.548997] (-) TimerEvent: {}
+[34.651399] (-) TimerEvent: {}
+[34.752832] (-) TimerEvent: {}
+[34.856395] (-) TimerEvent: {}
+[34.974672] (-) TimerEvent: {}
+[35.075577] (-) TimerEvent: {}
+[35.176814] (-) TimerEvent: {}
+[35.277661] (-) TimerEvent: {}
+[35.378650] (-) TimerEvent: {}
+[35.479830] (-) TimerEvent: {}
+[35.581926] (-) TimerEvent: {}
+[35.684303] (-) TimerEvent: {}
+[35.787924] (-) TimerEvent: {}
+[35.888815] (-) TimerEvent: {}
+[35.989699] (-) TimerEvent: {}
+[36.090599] (-) TimerEvent: {}
+[36.191130] (-) TimerEvent: {}
+[36.291855] (-) TimerEvent: {}
+[36.359929] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse robot_control::handle_goal_hand(const GoalUUID&, std::shared_ptr<const arm_hand_interface::action::DexterousHand_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.361249] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:594:142:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[36.361421] (robot_control) StderrLine: {'line': b'  594 | rclcpp_action::GoalResponse robot_control ::handle_goal_hand(const rclcpp_action::GoalUUID &uuid, \x1b[01;35m\x1b[Kstd::shared_ptr<const DexterousHand::Goal> goal\x1b[m\x1b[K)\n'}
+[36.361836] (robot_control) StderrLine: {'line': b'      |                                                                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[36.362001] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse robot_control::handle_cancel_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.362347] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:603:113:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[36.362491] (robot_control) StderrLine: {'line': b'  603 | rclcpp_action::CancelResponse robot_control ::handle_cancel_hand(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleDexterousHand> goal_handle\x1b[m\x1b[K)\n'}
+[36.362610] (robot_control) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.387182] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_control::execute_move_hand(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::DexterousHand> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.387493] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:651:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around comparison in operand of \xe2\x80\x98\x1b[01m\x1b[K==\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[36.387717] (robot_control) StderrLine: {'line': b'  651 |         } while (false == \x1b[01;35m\x1b[Kabs(R_ByteArray[0] - 999) <= 10\x1b[m\x1b[K && abs(R_ByteArray[1] - 999) <= 10 && abs(R_ByteArray[2] - 999) <= 10 && abs(R_ByteArray[3] - 999) <= 10 && abs(R_ByteArray[4] - 1000) <= 10 && abs(R_ByteArray[5] - 1000) <= 10);\n'}
+[36.388005] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[36.392089] (-) TimerEvent: {}
+[36.412694] (robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/robot_control.cpp:709:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around comparison in operand of \xe2\x80\x98\x1b[01m\x1b[K==\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[36.413004] (robot_control) StderrLine: {'line': b'  709 |         } while (false == \x1b[01;35m\x1b[Kabs(R_ByteArray[0] - 999) <= 50\x1b[m\x1b[K && abs(R_ByteArray[1] - 999) <= 5 && abs(R_ByteArray[2] - 999) <= 5 && abs(R_ByteArray[3] - 999) <= 5 && abs(R_ByteArray[4] - 1000) <= 5 && abs(R_ByteArray[5] - 1000) <= 50);\n'}
+[36.413133] (robot_control) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[36.492173] (-) TimerEvent: {}
+[36.593626] (-) TimerEvent: {}
+[36.694220] (-) TimerEvent: {}
+[36.794838] (-) TimerEvent: {}
+[36.895598] (-) TimerEvent: {}
+[36.996270] (-) TimerEvent: {}
+[37.097004] (-) TimerEvent: {}
+[37.197883] (-) TimerEvent: {}
+[37.299927] (-) TimerEvent: {}
+[37.400644] (-) TimerEvent: {}
+[37.502021] (-) TimerEvent: {}
+[37.602900] (-) TimerEvent: {}
+[37.703664] (-) TimerEvent: {}
+[37.805606] (-) TimerEvent: {}
+[37.906173] (-) TimerEvent: {}
+[38.006767] (-) TimerEvent: {}
+[38.107315] (-) TimerEvent: {}
+[38.207879] (-) TimerEvent: {}
+[38.308916] (-) TimerEvent: {}
+[38.409528] (-) TimerEvent: {}
+[38.510054] (-) TimerEvent: {}
+[38.610851] (-) TimerEvent: {}
+[38.713036] (-) TimerEvent: {}
+[38.817350] (-) TimerEvent: {}
+[38.918914] (-) TimerEvent: {}
+[39.019599] (-) TimerEvent: {}
+[39.122080] (-) TimerEvent: {}
+[39.224158] (-) TimerEvent: {}
+[39.324953] (-) TimerEvent: {}
+[39.425905] (-) TimerEvent: {}
+[39.526957] (-) TimerEvent: {}
+[39.627615] (-) TimerEvent: {}
+[39.728225] (-) TimerEvent: {}
+[39.829222] (-) TimerEvent: {}
+[39.930324] (-) TimerEvent: {}
+[40.169611] (-) TimerEvent: {}
+[40.270930] (-) TimerEvent: {}
+[40.384365] (-) TimerEvent: {}
+[40.485911] (-) TimerEvent: {}
+[40.589766] (-) TimerEvent: {}
+[40.729253] (-) TimerEvent: {}
+[40.829857] (-) TimerEvent: {}
+[40.930916] (-) TimerEvent: {}
+[41.031763] (-) TimerEvent: {}
+[41.132547] (-) TimerEvent: {}
+[41.269196] (-) TimerEvent: {}
+[41.370853] (-) TimerEvent: {}
+[41.471378] (-) TimerEvent: {}
+[41.572149] (-) TimerEvent: {}
+[41.672947] (-) TimerEvent: {}
+[41.773975] (-) TimerEvent: {}
+[41.874684] (-) TimerEvent: {}
+[42.064299] (-) TimerEvent: {}
+[42.304909] (-) TimerEvent: {}
+[42.409114] (-) TimerEvent: {}
+[42.509931] (-) TimerEvent: {}
+[42.610642] (-) TimerEvent: {}
+[42.711233] (-) TimerEvent: {}
+[42.811761] (-) TimerEvent: {}
+[42.912577] (-) TimerEvent: {}
+[43.013637] (-) TimerEvent: {}
+[43.116975] (-) TimerEvent: {}
+[43.217707] (-) TimerEvent: {}
+[43.330865] (-) TimerEvent: {}
+[43.432996] (-) TimerEvent: {}
+[43.534249] (-) TimerEvent: {}
+[43.634832] (-) TimerEvent: {}
+[43.735609] (-) TimerEvent: {}
+[43.836760] (-) TimerEvent: {}
+[43.937765] (-) TimerEvent: {}
+[44.038654] (-) TimerEvent: {}
+[44.139675] (-) TimerEvent: {}
+[44.240305] (-) TimerEvent: {}
+[44.341107] (-) TimerEvent: {}
+[44.442092] (-) TimerEvent: {}
+[44.542810] (-) TimerEvent: {}
+[44.645106] (-) TimerEvent: {}
+[44.746730] (-) TimerEvent: {}
+[44.847611] (-) TimerEvent: {}
+[44.948387] (-) TimerEvent: {}
+[45.052370] (-) TimerEvent: {}
+[45.153208] (-) TimerEvent: {}
+[45.253740] (-) TimerEvent: {}
+[45.354624] (-) TimerEvent: {}
+[45.523870] (-) TimerEvent: {}
+[45.627298] (-) TimerEvent: {}
+[45.760653] (-) TimerEvent: {}
+[45.863777] (-) TimerEvent: {}
+[45.969738] (-) TimerEvent: {}
+[46.070648] (-) TimerEvent: {}
+[46.171659] (-) TimerEvent: {}
+[46.272676] (-) TimerEvent: {}
+[46.373270] (-) TimerEvent: {}
+[46.474304] (-) TimerEvent: {}
+[46.575644] (-) TimerEvent: {}
+[46.677082] (-) TimerEvent: {}
+[46.818301] (-) TimerEvent: {}
+[46.920989] (-) TimerEvent: {}
+[47.030208] (-) TimerEvent: {}
+[47.134996] (-) TimerEvent: {}
+[47.235792] (-) TimerEvent: {}
+[47.336176] (-) TimerEvent: {}
+[47.437227] (-) TimerEvent: {}
+[47.538388] (-) TimerEvent: {}
+[47.639147] (-) TimerEvent: {}
+[47.739801] (-) TimerEvent: {}
+[47.841664] (-) TimerEvent: {}
+[47.942808] (-) TimerEvent: {}
+[48.043858] (-) TimerEvent: {}
+[48.243234] (-) TimerEvent: {}
+[48.343667] (-) TimerEvent: {}
+[48.444229] (-) TimerEvent: {}
+[48.545159] (-) TimerEvent: {}
+[48.646007] (-) TimerEvent: {}
+[48.747350] (-) TimerEvent: {}
+[48.847883] (-) TimerEvent: {}
+[48.948372] (-) TimerEvent: {}
+[49.051305] (-) TimerEvent: {}
+[49.152325] (-) TimerEvent: {}
+[49.252835] (-) TimerEvent: {}
+[49.353367] (-) TimerEvent: {}
+[49.454215] (-) TimerEvent: {}
+[49.555183] (-) TimerEvent: {}
+[49.655912] (-) TimerEvent: {}
+[49.757617] (-) TimerEvent: {}
+[49.858390] (-) TimerEvent: {}
+[49.958839] (-) TimerEvent: {}
+[50.059697] (-) TimerEvent: {}
+[50.160229] (-) TimerEvent: {}
+[50.260889] (-) TimerEvent: {}
+[50.361805] (-) TimerEvent: {}
+[50.462309] (-) TimerEvent: {}
+[50.563341] (-) TimerEvent: {}
+[50.663995] (-) TimerEvent: {}
+[50.764730] (-) TimerEvent: {}
+[50.865681] (-) TimerEvent: {}
+[50.966732] (-) TimerEvent: {}
+[51.067572] (-) TimerEvent: {}
+[51.168047] (-) TimerEvent: {}
+[51.268605] (-) TimerEvent: {}
+[51.370044] (-) TimerEvent: {}
+[51.471035] (-) TimerEvent: {}
+[51.571623] (-) TimerEvent: {}
+[51.672296] (-) TimerEvent: {}
+[51.772885] (-) TimerEvent: {}
+[51.874165] (-) TimerEvent: {}
+[51.974996] (-) TimerEvent: {}
+[52.076001] (-) TimerEvent: {}
+[52.180893] (-) TimerEvent: {}
+[52.283130] (-) TimerEvent: {}
+[52.385309] (-) TimerEvent: {}
+[52.487047] (-) TimerEvent: {}
+[52.587815] (-) TimerEvent: {}
+[52.688634] (-) TimerEvent: {}
+[52.789315] (-) TimerEvent: {}
+[52.890150] (-) TimerEvent: {}
+[52.990689] (-) TimerEvent: {}
+[53.092666] (-) TimerEvent: {}
+[53.252101] (-) TimerEvent: {}
+[53.360952] (-) TimerEvent: {}
+[53.461717] (-) TimerEvent: {}
+[53.563130] (-) TimerEvent: {}
+[53.663678] (-) TimerEvent: {}
+[53.764536] (-) TimerEvent: {}
+[53.865068] (-) TimerEvent: {}
+[53.966594] (-) TimerEvent: {}
+[54.070277] (-) TimerEvent: {}
+[54.222919] (-) TimerEvent: {}
+[54.326769] (-) TimerEvent: {}
+[54.429062] (-) TimerEvent: {}
+[54.529956] (-) TimerEvent: {}
+[54.630609] (-) TimerEvent: {}
+[54.731615] (-) TimerEvent: {}
+[54.832660] (-) TimerEvent: {}
+[54.933685] (-) TimerEvent: {}
+[55.034653] (-) TimerEvent: {}
+[55.135138] (-) TimerEvent: {}
+[55.235792] (-) TimerEvent: {}
+[55.336326] (-) TimerEvent: {}
+[55.437206] (-) TimerEvent: {}
+[55.538393] (-) TimerEvent: {}
+[55.639308] (-) TimerEvent: {}
+[55.753865] (-) TimerEvent: {}
+[55.854984] (-) TimerEvent: {}
+[55.963048] (-) TimerEvent: {}
+[56.082346] (-) TimerEvent: {}
+[56.183381] (-) TimerEvent: {}
+[56.284221] (-) TimerEvent: {}
+[56.389990] (-) TimerEvent: {}
+[56.503736] (-) TimerEvent: {}
+[56.605153] (-) TimerEvent: {}
+[56.705746] (-) TimerEvent: {}
+[56.806313] (-) TimerEvent: {}
+[56.955807] (-) TimerEvent: {}
+[57.056180] (-) TimerEvent: {}
+[57.156843] (-) TimerEvent: {}
+[57.258003] (-) TimerEvent: {}
+[57.359139] (-) TimerEvent: {}
+[57.460550] (-) TimerEvent: {}
+[57.561039] (-) TimerEvent: {}
+[57.661632] (-) TimerEvent: {}
+[57.762195] (-) TimerEvent: {}
+[57.863032] (-) TimerEvent: {}
+[57.966860] (-) TimerEvent: {}
+[58.077964] (-) TimerEvent: {}
+[58.248115] (-) TimerEvent: {}
+[58.352015] (-) TimerEvent: {}
+[58.452890] (-) TimerEvent: {}
+[58.553926] (-) TimerEvent: {}
+[58.654898] (-) TimerEvent: {}
+[58.755738] (-) TimerEvent: {}
+[58.856644] (-) TimerEvent: {}
+[58.957146] (-) TimerEvent: {}
+[59.058027] (-) TimerEvent: {}
+[59.159008] (-) TimerEvent: {}
+[59.259988] (-) TimerEvent: {}
+[59.360850] (-) TimerEvent: {}
+[59.461380] (-) TimerEvent: {}
+[59.561863] (-) TimerEvent: {}
+[59.662722] (-) TimerEvent: {}
+[59.764003] (-) TimerEvent: {}
+[59.864716] (-) TimerEvent: {}
+[59.965626] (-) TimerEvent: {}
+[60.066378] (-) TimerEvent: {}
+[60.167223] (-) TimerEvent: {}
+[60.267649] (-) TimerEvent: {}
+[60.368649] (-) TimerEvent: {}
+[60.490395] (-) TimerEvent: {}
+[60.591809] (-) TimerEvent: {}
+[60.732892] (-) TimerEvent: {}
+[60.835561] (-) TimerEvent: {}
+[60.936349] (-) TimerEvent: {}
+[61.037295] (-) TimerEvent: {}
+[61.138101] (-) TimerEvent: {}
+[61.240205] (-) TimerEvent: {}
+[61.341607] (-) TimerEvent: {}
+[61.442764] (-) TimerEvent: {}
+[61.543276] (-) TimerEvent: {}
+[61.643754] (-) TimerEvent: {}
+[61.744323] (-) TimerEvent: {}
+[61.845540] (-) TimerEvent: {}
+[61.945913] (-) TimerEvent: {}
+[62.046900] (-) TimerEvent: {}
+[62.147659] (-) TimerEvent: {}
+[62.248166] (-) TimerEvent: {}
+[62.349654] (-) TimerEvent: {}
+[62.450355] (-) TimerEvent: {}
+[62.552174] (-) TimerEvent: {}
+[62.652968] (-) TimerEvent: {}
+[62.753339] (-) TimerEvent: {}
+[62.854221] (-) TimerEvent: {}
+[63.024367] (-) TimerEvent: {}
+[63.126691] (-) TimerEvent: {}
+[63.227770] (-) TimerEvent: {}
+[63.328268] (-) TimerEvent: {}
+[63.428761] (-) TimerEvent: {}
+[63.531346] (-) TimerEvent: {}
+[63.631977] (-) TimerEvent: {}
+[63.733606] (-) TimerEvent: {}
+[63.834596] (-) TimerEvent: {}
+[63.935096] (-) TimerEvent: {}
+[64.041285] (-) TimerEvent: {}
+[64.142814] (-) TimerEvent: {}
+[64.255575] (-) TimerEvent: {}
+[64.357227] (-) TimerEvent: {}
+[64.458307] (-) TimerEvent: {}
+[64.559682] (-) TimerEvent: {}
+[64.660826] (-) TimerEvent: {}
+[64.762526] (-) TimerEvent: {}
+[64.868141] (-) TimerEvent: {}
+[64.979044] (-) TimerEvent: {}
+[65.080617] (-) TimerEvent: {}
+[65.181960] (-) TimerEvent: {}
+[65.282640] (-) TimerEvent: {}
+[65.383297] (-) TimerEvent: {}
+[65.485037] (-) TimerEvent: {}
+[65.585931] (-) TimerEvent: {}
+[65.686740] (-) TimerEvent: {}
+[65.787332] (-) TimerEvent: {}
+[65.888247] (-) TimerEvent: {}
+[65.989658] (-) TimerEvent: {}
+[66.158136] (-) TimerEvent: {}
+[66.258992] (-) TimerEvent: {}
+[66.398280] (-) TimerEvent: {}
+[66.533099] (-) TimerEvent: {}
+[66.634418] (-) TimerEvent: {}
+[66.738788] (-) TimerEvent: {}
+[66.839747] (-) TimerEvent: {}
+[66.942347] (-) TimerEvent: {}
+[67.090559] (-) TimerEvent: {}
+[67.191277] (-) TimerEvent: {}
+[67.291628] (-) TimerEvent: {}
+[67.392099] (-) TimerEvent: {}
+[67.493306] (-) TimerEvent: {}
+[67.594297] (-) TimerEvent: {}
+[67.694690] (-) TimerEvent: {}
+[67.796338] (-) TimerEvent: {}
+[67.897615] (-) TimerEvent: {}
+[68.021774] (-) TimerEvent: {}
+[68.122267] (-) TimerEvent: {}
+[68.222772] (-) TimerEvent: {}
+[68.323959] (-) TimerEvent: {}
+[68.425159] (-) TimerEvent: {}
+[68.526540] (-) TimerEvent: {}
+[68.627154] (-) TimerEvent: {}
+[68.727824] (-) TimerEvent: {}
+[68.828597] (-) TimerEvent: {}
+[68.929295] (-) TimerEvent: {}
+[69.032579] (-) TimerEvent: {}
+[69.136068] (-) TimerEvent: {}
+[69.237293] (-) TimerEvent: {}
+[69.338364] (-) TimerEvent: {}
+[69.364547] (robot_control) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable robot_control\x1b[0m\n'}
+[69.438792] (-) TimerEvent: {}
+[69.539487] (-) TimerEvent: {}
+[69.669725] (-) TimerEvent: {}
+[69.771039] (-) TimerEvent: {}
+[69.872162] (-) TimerEvent: {}
+[69.972786] (-) TimerEvent: {}
+[70.073884] (-) TimerEvent: {}
+[70.175345] (-) TimerEvent: {}
+[70.276618] (-) TimerEvent: {}
+[70.377599] (-) TimerEvent: {}
+[70.478616] (-) TimerEvent: {}
+[70.579300] (-) TimerEvent: {}
+[70.682763] (-) TimerEvent: {}
+[70.903418] (-) TimerEvent: {}
+[71.003900] (-) TimerEvent: {}
+[71.106099] (-) TimerEvent: {}
+[71.206660] (-) TimerEvent: {}
+[71.307688] (-) TimerEvent: {}
+[71.408295] (-) TimerEvent: {}
+[71.529626] (-) TimerEvent: {}
+[71.651572] (-) TimerEvent: {}
+[71.752053] (-) TimerEvent: {}
+[71.852355] (-) TimerEvent: {}
+[72.000009] (-) TimerEvent: {}
+[72.101264] (-) TimerEvent: {}
+[72.202234] (-) TimerEvent: {}
+[72.302878] (-) TimerEvent: {}
+[72.403637] (-) TimerEvent: {}
+[72.504355] (-) TimerEvent: {}
+[72.609780] (-) TimerEvent: {}
+[72.710703] (-) TimerEvent: {}
+[72.812418] (-) TimerEvent: {}
+[72.914854] (-) TimerEvent: {}
+[73.034023] (-) TimerEvent: {}
+[73.142310] (-) TimerEvent: {}
+[73.243241] (-) TimerEvent: {}
+[73.345090] (-) TimerEvent: {}
+[73.445957] (-) TimerEvent: {}
+[73.546632] (-) TimerEvent: {}
+[73.572289] (robot_control) StdoutLine: {'line': b'[100%] Built target robot_control\n'}
+[73.599995] (robot_control) CommandEnded: {'returncode': 0}
+[73.646691] (-) TimerEvent: {}
+[73.705940] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'install'}
+[73.708615] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ctg/jaka_HumanArm_v2/build/robot_control'], 'cwd': '/home/ctg/jaka_HumanArm_v2/build/robot_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ctg'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ctg/dev_ws/install/learning_interface/lib'), ('HOME', '/home/ctg'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2115'), ('SYSTEMD_EXEC_PID', '2288'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3087'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctg/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctg'), ('JOURNAL_STREAM', '8:30037'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctg'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctg/.local/bin:/opt/ros/humble/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/home/ctg/.local/bin:/home/ctg/qt5.14.2/5.14.2/gcc_64/bin:/home/ctg/qt5.14.2/Tools/QtCreator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin:/usr/local/arm64/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin'), ('SESSION_MANAGER', 'local/ctg-vm:@/tmp/.ICE-unix/2261,unix/ctg-vm:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '2b00a7edf1b146deb3d2b87e56ec5d89'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARG1R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7a4f7ab673.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_interface:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctg/jaka_HumanArm_v2/build/robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/ctg/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/ctg/dev_ws/install/learning_cv/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv')]), 'shell': False}
+[73.725241] (robot_control) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[73.727836] (robot_control) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control\n'}
+[73.747311] (-) TimerEvent: {}
+[73.756821] (robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control" to ""\n'}
+[73.757076] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch\n'}
+[73.757205] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch/robot_control.launch.py\n'}
+[73.757319] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control\n'}
+[73.757454] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control\n'}
+[73.757561] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.sh\n'}
+[73.760667] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv\n'}
+[73.763564] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.sh\n'}
+[73.763648] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.dsv\n'}
+[73.763690] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.bash\n'}
+[73.763728] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.sh\n'}
+[73.763764] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.zsh\n'}
+[73.763815] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.dsv\n'}
+[73.763858] (robot_control) StdoutLine: {'line': b'-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.dsv\n'}
+[73.763924] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/packages/robot_control\n'}
+[73.763985] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.764181] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[73.764605] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake\n'}
+[73.764774] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake\n'}
+[73.765070] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.xml\n'}
+[73.768745] (robot_control) CommandEnded: {'returncode': 0}
+[73.847611] (-) TimerEvent: {}
+[73.921372] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[73.926270] (-) EventReactorShutdown: {}

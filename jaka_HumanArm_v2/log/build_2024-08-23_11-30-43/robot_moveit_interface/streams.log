@@ -1,0 +1,87 @@
+[0.100s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface -- -j32 -l32
+[0.199s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.676s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.774s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.806s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.089s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.098s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.981s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[2.027s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.050s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.089s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.238s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.499s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.538s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.180s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[7.194s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.565s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.274s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.034s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[11.433s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[11.681s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[11.682s] -- BACKWARD_HAS_UNWIND=1
+[11.683s] -- BACKWARD_HAS_BACKTRACE=0
+[11.683s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[11.683s] -- BACKWARD_HAS_DW=1
+[11.683s] -- BACKWARD_HAS_BFD=0
+[11.684s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[11.685s] [0mrobot_moveit_interface: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[11.704s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[11.709s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[12.417s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[12.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[13.484s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[15.527s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[15.566s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[15.893s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[15.897s] -- Found OGRE
+[15.897s] --   static     : OFF
+[15.897s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[15.898s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[15.898s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[15.898s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[15.898s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[15.898s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[15.899s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[15.899s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[15.899s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[15.899s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[15.899s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[16.003s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[16.003s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[17.891s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[19.582s] -- Found robot_moveit_config: 0.3.0 (/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/cmake)
+[19.583s] -- Found robot_description: 0.0.0 (/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/cmake)
+[19.624s] -- Configuring done
+[19.741s] -- Generating done
+[19.746s] -- Build files have been written to: /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface
+[19.872s] [35m[1mConsolidate compiler generated dependencies of target robot_moveit_interface[0m
+[19.964s] [100%] Built target robot_moveit_interface
+[20.010s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface -- -j32 -l32
+[20.176s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface
+[20.203s] -- Install configuration: "Release"
+[20.205s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/lib/robot_moveit_interface/robot_moveit_interface
+[20.206s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/launch
+[20.207s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/launch/robot_moveit_interface.launch.py
+[20.207s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/package_run_dependencies/robot_moveit_interface
+[20.207s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/parent_prefix_path/robot_moveit_interface
+[20.208s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/ament_prefix_path.sh
+[20.208s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/ament_prefix_path.dsv
+[20.208s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/path.sh
+[20.209s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/environment/path.dsv
+[20.209s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.bash
+[20.210s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.sh
+[20.210s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.zsh
+[20.210s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/local_setup.dsv
+[20.210s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.dsv
+[20.211s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/ament_index/resource_index/packages/robot_moveit_interface
+[20.211s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.211s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.211s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/robot_moveit_interfaceConfig.cmake
+[20.211s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/cmake/robot_moveit_interfaceConfig-version.cmake
+[20.212s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface/share/robot_moveit_interface/package.xml
+[20.219s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_moveit_interface

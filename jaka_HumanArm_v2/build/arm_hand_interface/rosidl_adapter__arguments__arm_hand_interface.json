@@ -1,0 +1,8 @@
+{
+  "package_name": "arm_hand_interface",
+  "non_idl_tuples": [
+    "/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface:msg/ArmStatus.msg",
+    "/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface:action/ArmVisionPlanning.action",
+    "/home/ctg/jaka_HumanArm_v2/src/arm_hand_interface:action/DexterousHand.action"
+  ]
+}

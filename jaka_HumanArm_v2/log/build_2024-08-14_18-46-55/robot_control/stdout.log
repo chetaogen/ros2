@@ -1,0 +1,26 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_control.dir/src/jaka.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_control[0m
+[100%] Built target robot_control
+-- Install configuration: "Debug"
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control
+-- Set runtime path of "/home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control" to ""
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch/robot_control.launch.py
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.sh
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.dsv
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.bash
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.sh
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.zsh
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.dsv
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.xml

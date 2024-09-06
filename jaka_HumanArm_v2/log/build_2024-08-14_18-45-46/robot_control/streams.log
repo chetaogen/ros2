@@ -1,0 +1,96 @@
+[0.040s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_control': AMENT_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv LD_LIBRARY_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ctg/jaka_HumanArm_v2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ctg/jaka_HumanArm_v2/install/robot_control
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.329s] -- The CXX compiler identification is GNU 11.4.0
+[0.349s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.529s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.536s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.813s] -- Detecting CXX compile features
+[0.814s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.222s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.456s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.568s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.585s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.605s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.820s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.827s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.102s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.164s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.313s] -- Looking for pthread.h
+[2.498s] -- Looking for pthread.h - found
+[2.499s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.711s] -- Found Threads: TRUE  
+[3.070s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[3.192s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.225s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.286s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.369s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.762s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.436s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.436s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.892s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.900s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.159s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[8.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.702s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[9.859s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[9.867s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[9.867s] -- BACKWARD_HAS_UNWIND=1
+[9.867s] -- BACKWARD_HAS_BACKTRACE=0
+[9.867s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[9.867s] -- BACKWARD_HAS_DW=1
+[9.867s] -- BACKWARD_HAS_BFD=0
+[9.868s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[9.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[9.896s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[10.363s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[10.373s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[11.086s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[12.410s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[12.443s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[12.728s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[12.729s] -- Found OGRE
+[12.729s] --   static     : OFF
+[12.729s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[12.729s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.730s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[12.730s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[12.730s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[12.730s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.730s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[12.730s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.730s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.730s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.731s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.779s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[12.792s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[13.088s] -- Found X11: /usr/include   
+[13.089s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[13.382s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[13.383s] -- Looking for gethostbyname
+[13.635s] -- Looking for gethostbyname - found
+[13.635s] -- Looking for connect
+[13.898s] -- Looking for connect - found
+[13.898s] -- Looking for remove
+[14.178s] -- Looking for remove - found
+[14.178s] -- Looking for shmat
+[14.474s] -- Looking for shmat - found
+[14.484s] -- Looking for IceConnectionNumber in ICE
+[14.766s] -- Looking for IceConnectionNumber in ICE - found
+[14.769s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[14.769s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[16.071s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[17.208s] -- Found arm_hand_interface: 0.0.0 (/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake)
+[17.662s] -- Configuring done
+[17.964s] -- Generating done
+[17.974s] -- Build files have been written to: /home/ctg/jaka_HumanArm_v2/build/robot_control

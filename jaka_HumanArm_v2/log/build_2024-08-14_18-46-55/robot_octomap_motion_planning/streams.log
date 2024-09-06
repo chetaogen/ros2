@@ -1,0 +1,158 @@
+[0.064s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake /home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning -DCMAKE_INSTALL_PREFIX=/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning
+[0.078s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.439s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.646s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.961s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.326s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[1.608s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.629s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.687s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.765s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.113s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.394s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.406s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.407s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.778s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.789s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.802s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.079s] -- Found Qhull version 8.0.2
+[3.384s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.699s] -- looking for PCL_COMMON
+[3.699s] -- looking for PCL_KDTREE
+[3.700s] -- looking for PCL_OCTREE
+[3.701s] -- looking for PCL_SEARCH
+[3.701s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.701s] -- looking for PCL_FILTERS
+[3.702s] -- looking for PCL_2D
+[3.702s] -- looking for PCL_GEOMETRY
+[3.703s] -- looking for PCL_IO
+[3.704s] -- looking for PCL_FEATURES
+[3.704s] -- looking for PCL_ML
+[3.704s] -- looking for PCL_SEGMENTATION
+[3.706s] -- looking for PCL_VISUALIZATION
+[3.707s] -- looking for PCL_SURFACE
+[3.708s] -- looking for PCL_REGISTRATION
+[3.709s] -- looking for PCL_KEYPOINTS
+[3.710s] -- looking for PCL_TRACKING
+[3.711s] -- looking for PCL_RECOGNITION
+[3.713s] -- looking for PCL_STEREO
+[3.713s] -- looking for PCL_APPS
+[3.715s] -- looking for PCL_IN_HAND_SCANNER
+[3.716s] -- looking for PCL_MODELER
+[3.717s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.718s] -- looking for PCL_OUTOFCORE
+[3.720s] -- looking for PCL_PEOPLE
+[3.722s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.857s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[3.910s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.911s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.932s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.029s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.127s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.517s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.517s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.642s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.654s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.895s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.063s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[8.596s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.492s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[9.669s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[9.669s] -- BACKWARD_HAS_UNWIND=1
+[9.669s] -- BACKWARD_HAS_BACKTRACE=0
+[9.669s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[9.669s] -- BACKWARD_HAS_DW=1
+[9.669s] -- BACKWARD_HAS_BFD=0
+[9.671s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[9.672s] [0mrobot_octomap_motion_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[9.690s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[9.691s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[10.187s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[10.197s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[10.906s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[12.136s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[12.166s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[12.349s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[12.350s] -- Found OGRE
+[12.351s] --   static     : OFF
+[12.351s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[12.351s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.351s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[12.351s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[12.351s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[12.351s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[12.351s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[12.352s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.352s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[12.352s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.352s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[12.365s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[12.429s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[12.429s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[13.718s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[14.923s] -- Found robot_moveit_config: 0.3.0 (/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config/share/robot_moveit_config/cmake)
+[14.924s] -- Found robot_description: 0.0.0 (/home/ctg/jaka_HumanArm_v2/install/robot_description/share/robot_description/cmake)
+[14.926s] -- Found arm_hand_interface: 0.0.0 (/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake)
+[15.430s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.494s] -- Configured cppcheck include dirs: /home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/doc/interactivity/include;/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/,;$<BUILD_INTERFACE:/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/include>;/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/include
+[15.494s] -- Configured cppcheck exclude dirs and/or files: 
+[15.497s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.499s] -- Added test 'lint_cmake' to check CMake code style
+[15.499s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.504s] -- Added test 'uncrustify' to check C / C++ code style
+[15.504s] -- Configured uncrustify additional arguments: 
+[15.505s] -- Added test 'xmllint' to check XML markup files
+[15.513s] -- Configuring done
+[16.177s] -- Generating done
+[16.200s] -- Build files have been written to: /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning
+[16.246s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake /home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning -DCMAKE_INSTALL_PREFIX=/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning
+[16.252s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning -- -j32 -l32
+[16.414s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_octomap_motion_planning.dir/src/robot_octomap_motion_planning.cpp.o[0m
+[65.742s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse octomap_planning::handle_goal(const GoalUUID&, std::shared_ptr<const arm_hand_interface::action::ArmVisionPlanning_Goal_<std::allocator<void> > >)[m[K’:
+[65.742s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:129:143:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[65.742s]   129 | rclcpp_action::GoalResponse octomap_planning::handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const ArmVisionPlanning::Goal> goal[m[K)
+[65.742s]       |                                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[65.742s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse octomap_planning::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<arm_hand_interface::action::ArmVisionPlanning> >)[m[K’:
+[65.742s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:138:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[65.742s]   138 | rclcpp_action::CancelResponse octomap_planning::handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleArmVisionPlanning> goal_handle[m[K)
+[65.742s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[65.831s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:[m[K In member function ‘[01m[Kvoid octomap_planning::arm_status_topic_subscribe(const ArmStatus&)[m[K’:
+[65.831s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:463:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[65.831s]   463 |     static  long [01;35m[Kcount1[m[K =0 ;
+[65.831s]       |                  [01;35m[K^~~~~~[m[K
+[90.325s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:[m[K At global scope:
+[90.325s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning/src/robot_octomap_motion_planning.cpp:463:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount1[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[116.233s] [100%] [32m[1mLinking CXX executable robot_octomap_motion_planning[0m
+[122.821s] [100%] Built target robot_octomap_motion_planning
+[122.851s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning -- -j32 -l32
+[122.983s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning
+[123.000s] -- Install configuration: "Release"
+[123.001s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/robot_octomap_motion_planning/robot_octomap_motion_planning
+[123.006s] -- Set runtime path of "/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/lib/robot_octomap_motion_planning/robot_octomap_motion_planning" to ""
+[123.006s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/launch
+[123.007s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/launch/robot_octomap_motion_planning.launch.py
+[123.010s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/package_run_dependencies/robot_octomap_motion_planning
+[123.011s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/parent_prefix_path/robot_octomap_motion_planning
+[123.012s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/ament_prefix_path.sh
+[123.012s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/ament_prefix_path.dsv
+[123.012s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/path.sh
+[123.013s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/environment/path.dsv
+[123.013s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.bash
+[123.013s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.sh
+[123.015s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.zsh
+[123.015s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/local_setup.dsv
+[123.015s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.dsv
+[123.015s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/ament_index/resource_index/packages/robot_octomap_motion_planning
+[123.016s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[123.016s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[123.016s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/robot_octomap_motion_planningConfig.cmake
+[123.017s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/cmake/robot_octomap_motion_planningConfig-version.cmake
+[123.017s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning/share/robot_octomap_motion_planning/package.xml
+[123.023s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning

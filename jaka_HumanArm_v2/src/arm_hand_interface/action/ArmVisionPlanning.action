@@ -1,0 +1,22 @@
+#Arm_vision_planning.action 内容
+# 请求数据，视觉系统->机械臂系统
+# 视觉系统是client, 机械臂是server
+int32  arm_no                                #arm_no=1,表示左臂；arm_no=2,表示右臂
+#int32  command_no                            #当前指令的编号，从1开始。代表第几条指令
+geometry_msgs/Pose     arm_target_pose       #机械臂末端目标位姿
+---
+# 结果反馈，机械臂系统->视觉系统
+int32   arm_no                         #arm_no=1,表示左臂；arm_no=2,表示右臂
+#int32   command_no                     #当前指令的编号，从1开始
+float32   time_from_start               #从开始运动到结束的时间, 单位:s
+geometry_msgs/Pose    arm_pose          # 机械臂末端实际位姿
+bool success
+string info                             # error_info if success is false, else is empty
+---
+# 过程反馈，机械臂系统->视觉系统
+int32    arm_no                        #arm_no=1,表示左臂；arm_no=2,表示右臂
+#int32    command_no                    #当前指令的编号，从1开始。代表第几条指令
+bool     plan_success                  # 机械臂轨迹规划结果, false:规划失败； true:规划成功
+float32   time_from_start              # 从开始运动到当前的时间, 单位:s.只有在plan_success = true时才有意义
+geometry_msgs/Pose   arm_pose  #geometry_msgs::msg::Pose   arm_pose    # 执行过程中机械臂末端实际位姿。只有在plan_success = true时才有意义
+float32[6]   arm_joint_angles          # 机械臂6个关节实际角度

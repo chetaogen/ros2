@@ -1,0 +1,309 @@
+[0.056s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_control': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_control -- -j32 -l32
+[0.287s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_control.dir/src/jaka.cpp.o[0m
+[2.268s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.268s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:23:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Servo_Move_Use_Joint_LPF(double)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.268s]    23 | errno_t [01;35m[KServo_Move_Use_Joint_LPF[m[K(double cutoffFreq);
+[2.268s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.268s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.268s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:23:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Servo_Move_Use_Joint_LPF(double)[m[K’
+[2.269s]    23 | errno_t [01;36m[KServo_Move_Use_Joint_LPF[m[K(double cutoffFreq);
+[2.269s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.270s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.270s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:25:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Servo_Move_Enable(BOOL)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.270s]    25 | errno_t [01;35m[KServo_Move_Enable[m[K(BOOL enable);
+[2.273s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.273s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.274s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:25:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Servo_Move_Enable(BOOL)[m[K’
+[2.274s]    25 | errno_t [01;36m[KServo_Move_Enable[m[K(BOOL enable);
+[2.274s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.275s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.275s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:27:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Servo_J(const JointValue*, MoveMode)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.275s]    27 | errno_t [01;35m[KServo_J[m[K(const JointValue *joint_pos, MoveMode move_mode);
+[2.277s]       |         [01;35m[K^~~~~~~[m[K
+[2.277s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.278s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:27:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Servo_J(const JointValue*, MoveMode)[m[K’
+[2.278s]    27 | errno_t [01;36m[KServo_J[m[K(const JointValue *joint_pos, MoveMode move_mode);
+[2.278s]       |         [01;36m[K^~~~~~~[m[K
+[2.278s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.278s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:30:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Login_In(const char*)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.278s]    30 | errno_t [01;35m[KLogin_In[m[K(const char *ip);
+[2.278s]       |         [01;35m[K^~~~~~~~[m[K
+[2.278s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.279s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:30:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Login_In(const char*)[m[K’
+[2.279s]    30 | errno_t [01;36m[KLogin_In[m[K(const char *ip);
+[2.279s]       |         [01;36m[K^~~~~~~~[m[K
+[2.279s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.280s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:33:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Power_On()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.280s]    33 | errno_t [01;35m[KPower_On[m[K();
+[2.280s]       |         [01;35m[K^~~~~~~~[m[K
+[2.280s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.281s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:33:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Power_On()[m[K’
+[2.281s]    33 | errno_t [01;36m[KPower_On[m[K();
+[2.281s]       |         [01;36m[K^~~~~~~~[m[K
+[2.281s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.281s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:37:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Power_Off()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.281s]    37 | errno_t [01;35m[KPower_Off[m[K();
+[2.282s]       |         [01;35m[K^~~~~~~~~[m[K
+[2.282s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.282s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:37:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Power_Off()[m[K’
+[2.282s]    37 | errno_t [01;36m[KPower_Off[m[K();
+[2.282s]       |         [01;36m[K^~~~~~~~~[m[K
+[2.283s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.283s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:40:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Enable_Robot()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.283s]    40 | errno_t [01;35m[KEnable_Robot[m[K();
+[2.283s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[2.283s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.283s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:40:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Enable_Robot()[m[K’
+[2.283s]    40 | errno_t [01;36m[KEnable_Robot[m[K();
+[2.284s]       |         [01;36m[K^~~~~~~~~~~~[m[K
+[2.284s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.284s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:43:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Disable_Robot()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.284s]    43 | errno_t [01;35m[KDisable_Robot[m[K();
+[2.285s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[2.285s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.285s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:43:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Disable_Robot()[m[K’
+[2.285s]    43 | errno_t [01;36m[KDisable_Robot[m[K();
+[2.285s]       |         [01;36m[K^~~~~~~~~~~~~[m[K
+[2.285s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.285s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:45:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Login_out()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.285s]    45 | errno_t [01;35m[KLogin_out[m[K();
+[2.285s]       |         [01;35m[K^~~~~~~~~[m[K
+[2.285s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.285s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:45:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Login_out()[m[K’
+[2.285s]    45 | errno_t [01;36m[KLogin_out[m[K();
+[2.285s]       |         [01;36m[K^~~~~~~~~[m[K
+[2.286s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.286s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:47:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t shut_down()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.286s]    47 | errno_t [01;35m[Kshut_down[m[K();
+[2.286s]       |         [01;35m[K^~~~~~~~~[m[K
+[2.286s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.286s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:47:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t shut_down()[m[K’
+[2.286s]    47 | errno_t [01;36m[Kshut_down[m[K();
+[2.286s]       |         [01;36m[K^~~~~~~~~[m[K
+[2.287s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.287s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:50:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Set_Collision_Level(int)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.287s]    50 | errno_t [01;35m[KSet_Collision_Level[m[K(const int level);
+[2.287s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.288s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.288s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:50:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Set_Collision_Level(int)[m[K’
+[2.288s]    50 | errno_t [01;36m[KSet_Collision_Level[m[K(const int level);
+[2.288s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.288s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.289s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:53:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Get_Collision_Level()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.289s]    53 | errno_t [01;35m[KGet_Collision_Level[m[K();
+[2.289s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.289s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.289s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:53:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Get_Collision_Level()[m[K’
+[2.289s]    53 | errno_t [01;36m[KGet_Collision_Level[m[K();
+[2.290s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.290s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.290s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:56:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[KBOOL Is_In_Collision()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.290s]    56 | BOOL [01;35m[KIs_In_Collision[m[K();
+[2.290s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.290s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.291s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:56:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[KBOOL Is_In_Collision()[m[K’
+[2.291s]    56 | BOOL [01;36m[KIs_In_Collision[m[K();
+[2.291s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.291s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.292s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:59:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Collision_Recover()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.292s]    59 | errno_t [01;35m[KCollision_Recover[m[K();
+[2.292s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.292s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.292s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:59:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Collision_Recover()[m[K’
+[2.292s]    59 | errno_t [01;36m[KCollision_Recover[m[K();
+[2.293s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.293s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.293s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:65:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Jog_Motion(int, MoveMode, CoordType, double, double)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.293s]    65 | errno_t [01;35m[KJog_Motion[m[K(int aj_num, MoveMode move_mode, CoordType coord_type, double vel_cmd, double pos_cmd);
+[2.293s]       |         [01;35m[K^~~~~~~~~~[m[K
+[2.293s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.294s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:65:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Jog_Motion(int, MoveMode, CoordType, double, double)[m[K’
+[2.294s]    65 | errno_t [01;36m[KJog_Motion[m[K(int aj_num, MoveMode move_mode, CoordType coord_type, double vel_cmd, double pos_cmd);
+[2.294s]       |         [01;36m[K^~~~~~~~~~[m[K
+[2.294s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.295s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:68:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Jog_Stop(int)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.295s]    68 | errno_t [01;35m[KJog_Stop[m[K(int num);
+[2.295s]       |         [01;35m[K^~~~~~~~[m[K
+[2.295s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.295s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:68:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Jog_Stop(int)[m[K’
+[2.296s]    68 | errno_t [01;36m[KJog_Stop[m[K(int num);
+[2.296s]       |         [01;36m[K^~~~~~~~[m[K
+[2.296s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.296s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:72:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.296s]    72 | errno_t [01;35m[KJoints_Move[m[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed);
+[2.297s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.297s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.297s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:72:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double)[m[K’
+[2.297s]    72 | errno_t [01;36m[KJoints_Move[m[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed);
+[2.297s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.297s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.298s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:75:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double, double, double, const OptionalCond*)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.298s]    75 | errno_t [01;35m[KJoints_Move[m[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed, double acc, double tol, const OptionalCond *option_cond);
+[2.298s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.298s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.298s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:75:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Joints_Move(const JointValue*, MoveMode, BOOL, double, double, double, const OptionalCond*)[m[K’
+[2.299s]    75 | errno_t [01;36m[KJoints_Move[m[K(const JointValue *joint_pos, MoveMode move_mode, BOOL is_block, double speed, double acc, double tol, const OptionalCond *option_cond);
+[2.299s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.299s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.299s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:79:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Motion_Abort()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.299s]    79 | errno_t [01;35m[KMotion_Abort[m[K();
+[2.300s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[2.300s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.300s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:79:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Motion_Abort()[m[K’
+[2.300s]    79 | errno_t [01;36m[KMotion_Abort[m[K();
+[2.300s]       |         [01;36m[K^~~~~~~~~~~~[m[K
+[2.300s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.301s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:82:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.301s]    82 | errno_t [01;35m[KLinear_Move[m[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed);
+[2.301s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.301s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.301s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:82:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double)[m[K’
+[2.301s]    82 | errno_t [01;36m[KLinear_Move[m[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed);
+[2.302s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.302s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.302s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:85:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double, double, double, const OptionalCond*, double, double)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.302s]    85 | errno_t [01;35m[KLinear_Move[m[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed, double accel, double tol, const OptionalCond *option_cond, double ori_vel, double ori_acc);
+[2.302s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.303s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.303s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:85:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Linear_Move(const CartesianPose*, MoveMode, BOOL, double, double, double, const OptionalCond*, double, double)[m[K’
+[2.303s]    85 | errno_t [01;36m[KLinear_Move[m[K(const CartesianPose *end_pos, MoveMode move_mode, BOOL is_block, double speed, double accel, double tol, const OptionalCond *option_cond, double ori_vel, double ori_acc);
+[2.303s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.303s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.304s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:88:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Get_Joint_Position(JointValue*)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.304s]    88 | errno_t [01;35m[KGet_Joint_Position[m[K(JointValue *joint_position);
+[2.304s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.304s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.304s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:88:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Get_Joint_Position(JointValue*)[m[K’
+[2.304s]    88 | errno_t [01;36m[KGet_Joint_Position[m[K(JointValue *joint_position);
+[2.305s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.305s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.305s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:91:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Get_Tcp_Position(CartesianPose*)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.305s]    91 | errno_t [01;35m[KGet_Tcp_Position[m[K(CartesianPose *tcp_position);
+[2.305s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.306s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.306s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:91:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Get_Tcp_Position(CartesianPose*)[m[K’
+[2.306s]    91 | errno_t [01;36m[KGet_Tcp_Position[m[K(CartesianPose *tcp_position);
+[2.306s]       |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.306s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.306s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:95:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t Is_Moving(BOOL*)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.306s]    95 | errno_t [01;35m[KIs_Moving[m[K(BOOL *in_pos);
+[2.307s]       |         [01;35m[K^~~~~~~~~[m[K
+[2.307s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.307s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:95:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t Is_Moving(BOOL*)[m[K’
+[2.307s]    95 | errno_t [01;36m[KIs_Moving[m[K(BOOL *in_pos);
+[2.308s]       |         [01;36m[K^~~~~~~~~[m[K
+[2.308s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.308s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:129:9:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kerrno_t change_mode()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.308s]   129 | errno_t [01;35m[Kchange_mode[m[K(); // 更改485通道二的通讯模式,手的通讯模式是modbus rtu
+[2.308s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.309s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.309s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:129:9:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kerrno_t change_mode()[m[K’
+[2.310s]   129 | errno_t [01;36m[Kchange_mode[m[K(); // 更改485通道二的通讯模式,手的通讯模式是modbus rtu
+[2.310s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.311s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.311s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:130:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kvoid Add_Signal()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.311s]   130 | void [01;35m[KAdd_Signal[m[K();     // 添加六个角度信号量，只有添加信号量才能获取角度信息
+[2.311s]       |      [01;35m[K^~~~~~~~~~[m[K
+[2.311s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.312s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:130:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kvoid Add_Signal()[m[K’
+[2.312s]   130 | void [01;36m[KAdd_Signal[m[K();     // 添加六个角度信号量，只有添加信号量才能获取角度信息
+[2.312s]       |      [01;36m[K^~~~~~~~~~[m[K
+[2.312s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.313s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:131:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kvoid Delete_signal()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.313s]   131 | void [01;35m[KDelete_signal[m[K();  // 删除信号量，放在析构函数中
+[2.314s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[2.314s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.314s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:131:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kvoid Delete_signal()[m[K’
+[2.314s]   131 | void [01;36m[KDelete_signal[m[K();  // 删除信号量，放在析构函数中
+[2.314s]       |      [01;36m[K^~~~~~~~~~~~~[m[K
+[2.314s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.315s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:132:23:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kstd::vector<short unsigned int> read_SeriesPort()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.315s]   132 | std::vector<uint16_t> [01;35m[Kread_SeriesPort[m[K(); // 读手角度信息 但是信息读取有问题
+[2.315s]       |                       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.315s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.316s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:132:23:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kstd::vector<short unsigned int> read_SeriesPort()[m[K’
+[2.316s]   132 | std::vector<uint16_t> [01;36m[Kread_SeriesPort[m[K(); // 读手角度信息 但是信息读取有问题
+[2.316s]       |                       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.316s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.317s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:135:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.317s]   135 | void [01;35m[Kwrite_SeriesPort_modbus[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6, uint16_t  Register_Number);
+[2.317s]       |      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.317s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.317s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:135:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’
+[2.317s]   135 | void [01;36m[Kwrite_SeriesPort_modbus[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6, uint16_t  Register_Number);
+[2.318s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.318s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.318s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:138:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kvoid action1()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.318s]   138 | void [01;35m[Kaction1[m[K();
+[2.319s]       |      [01;35m[K^~~~~~~[m[K
+[2.319s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.319s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:138:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kvoid action1()[m[K’
+[2.319s]   138 | void [01;36m[Kaction1[m[K();
+[2.320s]       |      [01;36m[K^~~~~~~[m[K
+[2.320s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.320s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:139:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool judge1(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.320s]   139 | bool [01;35m[Kjudge1[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6);
+[2.320s]       |      [01;35m[K^~~~~~[m[K
+[2.320s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.321s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:139:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool judge1(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’
+[2.321s]   139 | bool [01;36m[Kjudge1[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6);
+[2.321s]       |      [01;36m[K^~~~~~[m[K
+[2.321s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.322s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:141:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kvoid action2()[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.322s]   141 | void [01;35m[Kaction2[m[K();
+[2.322s]       |      [01;35m[K^~~~~~~[m[K
+[2.322s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.322s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:141:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kvoid action2()[m[K’
+[2.322s]   141 | void [01;36m[Kaction2[m[K();
+[2.323s]       |      [01;36m[K^~~~~~~[m[K
+[2.323s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:3[m[K:
+[2.323s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/../include/jaka.h:142:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool judge2(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[2.323s]   142 | bool [01;35m[Kjudge2[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6);
+[2.323s]       |      [01;35m[K^~~~~~[m[K
+[2.323s] In file included from [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:1[m[K:
+[2.324s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/include/jaka.h:142:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool judge2(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’
+[2.324s]   142 | bool [01;36m[Kjudge2[m[K(uint16_t angle_1, uint16_t angle_2, uint16_t angle_3, uint16_t angle_4, uint16_t angle_5, uint16_t angle_6);
+[2.324s]       |      [01;36m[K^~~~~~[m[K
+[8.977s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:[m[K In function ‘[01m[Kerrno_t change_mode()[m[K’:
+[8.978s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:171:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.978s]   171 |     int [01;35m[Kret[m[K;
+[8.978s]       |         [01;35m[K^~~[m[K
+[8.979s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:[m[K In function ‘[01m[Kvoid Add_Signal()[m[K’:
+[8.979s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:245:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.980s]   245 |         int [01;35m[Kret[m[K = m_JAKAZuRobot.add_tio_rs_signal(sign_info_angles[i]);
+[8.980s]       |             [01;35m[K^~~[m[K
+[8.980s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:[m[K In function ‘[01m[Kvoid Delete_signal()[m[K’:
+[8.980s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:255:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.980s]   255 |         int [01;35m[Kret[m[K = m_JAKAZuRobot.del_tio_rs_signal(name[i]);
+[8.980s]       |             [01;35m[K^~~[m[K
+[8.997s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:[m[K In function ‘[01m[Kvoid write_SeriesPort_modbus(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)[m[K’:
+[8.997s] [01m[K/home/ctg/jaka_HumanArm_v2/src/robot_control/src/jaka.cpp:308:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.998s]   308 |     int [01;35m[Kret[m[K = m_JAKAZuRobot.send_tio_rs_command(1, data, sizeof(data));
+[8.998s]       |         [01;35m[K^~~[m[K
+[12.190s] [ 66%] [32m[1mLinking CXX executable robot_control[0m
+[15.444s] [100%] Built target robot_control
+[15.489s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/robot_control -- -j32 -l32
+[15.658s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_control': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_control
+[15.683s] -- Install configuration: "Debug"
+[15.684s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control
+[15.759s] -- Set runtime path of "/home/ctg/jaka_HumanArm_v2/install/robot_control/lib/robot_control/robot_control" to ""
+[15.760s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch
+[15.760s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/launch/robot_control.launch.py
+[15.760s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[15.761s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[15.761s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[15.761s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[15.761s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.sh
+[15.761s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/environment/path.dsv
+[15.762s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.bash
+[15.762s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.sh
+[15.762s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.zsh
+[15.762s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/local_setup.dsv
+[15.762s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.dsv
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[15.763s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/robot_control/share/robot_control/package.xml
+[15.772s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/dev_ws/install/pkg01_helloworld_cpp:/home/ctg/dev_ws/install/learning_topic_cpp:/home/ctg/dev_ws/install/learning_tf_cpp:/home/ctg/dev_ws/install/learning_service_cpp:/home/ctg/dev_ws/install/learning_pkg_c:/home/ctg/dev_ws/install/learning_parameter_cpp:/home/ctg/dev_ws/install/learning_node_cpp:/home/ctg/dev_ws/install/learning_action_cpp:/home/ctg/dev_ws/install/learning_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/robot_control

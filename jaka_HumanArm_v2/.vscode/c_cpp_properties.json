@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/zj/ROS2_Work/jaka_HumanArm_v2/src/robot_control/include/**",
+                "/home/zj/ROS2_Work/jaka_HumanArm_v2/src/robot_description/include/**",
+                "/home/zj/ROS2_Work/jaka_HumanArm_v2/src/robot_moveit_interface/include/**",
+                "/home/zj/ROS2_Work/jaka_HumanArm_v2/src/robot_octomap_motion_planning/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/arm_hand_interface/include/arm_hand_interface"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,16 @@
+errno_t Servo_Move_Enable(BOOL enable)
+{
+    m_JAKAZuRobot.servo_move_enable(enable);
+    return enable;
+}
+
+errno_t Servo_J(const JointValue *joint_pos, MoveMode move_mode)
+{
+    return m_JAKAZuRobot.servo_j(joint_pos, move_mode);
+}
+
+
+
+errno_t Servo_Move_Enable(BOOL enable);
+
+errno_t Servo_J(const JointValue *joint_pos, MoveMode move_mode);

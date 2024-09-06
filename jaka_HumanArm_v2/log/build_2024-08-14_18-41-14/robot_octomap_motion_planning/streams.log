@@ -1,0 +1,202 @@
+[0.081s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake /home/ctg/jaka_HumanArm_v2/src/robot_octomap_motion_planning -DCMAKE_INSTALL_PREFIX=/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning
+[0.669s] -- The C compiler identification is GNU 11.4.0
+[0.898s] -- The CXX compiler identification is GNU 11.4.0
+[0.940s] -- Detecting C compiler ABI info
+[1.134s] -- Detecting C compiler ABI info - done
+[1.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.144s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.156s] -- Detecting CXX compiler ABI info
+[1.324s] -- Detecting CXX compiler ABI info - done
+[1.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.331s] -- Detecting CXX compile features
+[1.331s] -- Detecting CXX compile features - done
+[1.393s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.121s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.440s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.468s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.525s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.040s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.063s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.440s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.509s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.661s] -- Looking for pthread.h
+[3.845s] -- Looking for pthread.h - found
+[3.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.042s] -- Found Threads: TRUE  
+[4.488s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[4.880s] -- Checking for module 'eigen3'
+[4.929s] --   Found eigen3, version 3.4.0
+[5.053s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.053s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.134s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.178s] -- Checking for module 'flann'
+[5.227s] --   Found flann, version 1.9.1
+[5.347s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.347s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.450s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.467s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[5.889s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[5.889s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[5.897s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[5.923s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[5.968s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[6.123s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.416s] -- Found X11: /usr/include   
+[6.416s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.618s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.618s] -- Looking for gethostbyname
+[6.816s] -- Looking for gethostbyname - found
+[6.816s] -- Looking for connect
+[7.008s] -- Looking for connect - found
+[7.008s] -- Looking for remove
+[7.174s] -- Looking for remove - found
+[7.174s] -- Looking for shmat
+[7.340s] -- Looking for shmat - found
+[7.340s] -- Looking for IceConnectionNumber in ICE
+[7.516s] -- Looking for IceConnectionNumber in ICE - found
+[7.781s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.788s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[7.799s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.805s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.840s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[7.855s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.865s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.882s] -- Found utf8cpp: /usr/include/utf8cpp  
+[8.173s] -- Checking for module 'libusb-1.0'
+[8.224s] --   Found libusb-1.0, version 1.0.25
+[8.355s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.356s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.356s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.518s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.518s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.519s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.862s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.874s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.890s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.233s] -- Found Qhull version 8.0.2
+[9.561s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.880s] -- looking for PCL_COMMON
+[9.882s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.883s] -- looking for PCL_KDTREE
+[9.886s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.886s] -- looking for PCL_OCTREE
+[9.887s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.888s] -- looking for PCL_SEARCH
+[9.888s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.889s] -- looking for PCL_SAMPLE_CONSENSUS
+[9.891s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.891s] -- looking for PCL_FILTERS
+[9.891s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.892s] -- looking for PCL_2D
+[9.892s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.892s] -- looking for PCL_GEOMETRY
+[9.893s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.893s] -- looking for PCL_IO
+[9.893s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.896s] -- looking for PCL_FEATURES
+[9.898s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.898s] -- looking for PCL_ML
+[9.901s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.902s] -- looking for PCL_SEGMENTATION
+[9.902s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.902s] -- looking for PCL_VISUALIZATION
+[9.902s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.902s] -- looking for PCL_SURFACE
+[9.903s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.903s] -- looking for PCL_REGISTRATION
+[9.904s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.904s] -- looking for PCL_KEYPOINTS
+[9.905s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.906s] -- looking for PCL_TRACKING
+[9.906s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.908s] -- looking for PCL_RECOGNITION
+[9.909s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.910s] -- looking for PCL_STEREO
+[9.912s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.913s] -- looking for PCL_APPS
+[9.916s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.919s] -- looking for PCL_IN_HAND_SCANNER
+[9.920s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.921s] -- looking for PCL_MODELER
+[9.922s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.923s] -- looking for PCL_POINT_CLOUD_EDITOR
+[9.923s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.923s] -- looking for PCL_OUTOFCORE
+[9.926s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.927s] -- looking for PCL_PEOPLE
+[9.930s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.933s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[9.939s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.132s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[10.197s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[10.222s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.285s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.395s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[10.697s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[11.175s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.175s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.533s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[13.544s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[13.743s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[14.902s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[15.408s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[16.315s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[16.500s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[16.507s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[16.507s] -- BACKWARD_HAS_UNWIND=1
+[16.507s] -- BACKWARD_HAS_BACKTRACE=0
+[16.507s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[16.507s] -- BACKWARD_HAS_DW=1
+[16.508s] -- BACKWARD_HAS_BFD=0
+[16.512s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[16.512s] [0mrobot_octomap_motion_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[16.515s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[16.526s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[17.003s] -- Found moveit_ros_perception: 2.5.5 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[17.009s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[17.789s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[19.163s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[19.188s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[19.422s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[19.423s] -- Found OGRE
+[19.423s] --   static     : OFF
+[19.423s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[19.423s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[19.423s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[19.423s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[19.423s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[19.423s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[19.424s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[19.424s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[19.424s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[19.424s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[19.424s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[19.440s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[19.509s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[19.509s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[20.683s] -- Found moveit_visual_tools: 4.1.0 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[21.882s] -- Configuring incomplete, errors occurred!
+[21.882s] See also "/home/ctg/jaka_HumanArm_v2/build/robot_octomap_motion_planning/CMakeFiles/CMakeOutput.log".
+[21.883s] [31mCMake Error at CMakeLists.txt:44 (find_package):
+[21.883s]   By not providing "Findrobot_moveit_config.cmake" in CMAKE_MODULE_PATH this
+[21.884s]   project has asked CMake to find a package configuration file provided by
+[21.884s]   "robot_moveit_config", but CMake did not find one.
+[21.884s] 
+[21.884s]   Could not find a package configuration file provided by
+[21.884s]   "robot_moveit_config" with any of the following names:
+[21.884s] 
+[21.884s]     robot_moveit_configConfig.cmake
+[21.885s]     robot_moveit_config-config.cmake
+[21.885s] 
+[21.885s]   Add the installation prefix of "robot_moveit_config" to CMAKE_PREFIX_PATH
+[21.885s]   or set "robot_moveit_config_DIR" to a directory containing one of the above
+[21.885s]   files.  If "robot_moveit_config" provides a separate development package or
+[21.885s]   SDK, be sure it has been installed.
+[21.885s] 
+[21.885s] [0m

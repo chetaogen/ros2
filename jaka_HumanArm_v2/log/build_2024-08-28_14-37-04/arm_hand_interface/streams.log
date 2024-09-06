@@ -1,0 +1,196 @@
+[0.148s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface -- -j32 -l32
+[0.406s] [ 12%] Built target arm_hand_interface__rosidl_generator_c
+[0.406s] [ 12%] Built target arm_hand_interface__cpp
+[0.457s] [ 12%] Built target ament_cmake_python_copy_arm_hand_interface
+[0.506s] [ 23%] Built target arm_hand_interface__rosidl_typesupport_c
+[0.513s] [ 34%] Built target arm_hand_interface__rosidl_typesupport_introspection_c
+[0.516s] [ 44%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c
+[0.529s] [ 55%] Built target arm_hand_interface__rosidl_typesupport_introspection_cpp
+[0.563s] [ 65%] Built target arm_hand_interface__rosidl_typesupport_cpp
+[0.565s] [ 76%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_cpp
+[0.660s] [ 76%] Built target arm_hand_interface
+[0.754s] [ 78%] Built target arm_hand_interface__py
+[0.852s] [ 87%] Built target arm_hand_interface__rosidl_generator_py
+[0.951s] [ 95%] Built target arm_hand_interface__rosidl_typesupport_c__pyext
+[0.951s] [ 95%] Built target arm_hand_interface__rosidl_typesupport_introspection_c__pyext
+[0.954s] [100%] Built target arm_hand_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.378s] running egg_info
+[1.380s] writing arm_hand_interface.egg-info/PKG-INFO
+[1.382s] writing dependency_links to arm_hand_interface.egg-info/dependency_links.txt
+[1.383s] writing top-level names to arm_hand_interface.egg-info/top_level.txt
+[1.390s] reading manifest file 'arm_hand_interface.egg-info/SOURCES.txt'
+[1.393s] writing manifest file 'arm_hand_interface.egg-info/SOURCES.txt'
+[1.470s] [100%] Built target ament_cmake_python_build_arm_hand_interface_egg
+[1.513s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --build /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface -- -j32 -l32
+[2.279s] Invoking command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface
+[2.307s] -- Install configuration: "Release"
+[2.309s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/rosidl_interfaces/arm_hand_interface
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_generator_c__visibility_control.h
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/arm_status.h
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.311s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__functions.c
+[2.312s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.h
+[2.313s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__functions.h
+[2.314s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__struct.h
+[2.314s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.314s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/arm_vision_planning.h
+[2.314s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__functions.h
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__struct.h
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.h
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__functions.c
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__functions.h
+[2.315s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__struct.h
+[2.316s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.h
+[2.316s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__functions.c
+[2.316s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/dexterous_hand.h
+[2.316s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/library_path.sh
+[2.318s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/library_path.dsv
+[2.325s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_generator_c.so
+[2.325s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.326s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.326s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.326s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.326s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_fastrtps_c.h
+[2.326s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.327s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.327s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_c.h
+[2.327s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_c.h
+[2.329s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_fastrtps_c.so
+[2.330s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.330s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.331s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.331s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__traits.hpp
+[2.332s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__struct.hpp
+[2.332s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__builder.hpp
+[2.332s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/arm_status.hpp
+[2.332s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.333s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/arm_vision_planning.hpp
+[2.333s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.333s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__traits.hpp
+[2.333s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__builder.hpp
+[2.334s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__builder.hpp
+[2.334s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__struct.hpp
+[2.334s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__struct.hpp
+[2.334s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__traits.hpp
+[2.335s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/dexterous_hand.hpp
+[2.335s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.335s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.335s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.336s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/dds_fastrtps
+[2.336s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.336s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.336s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.336s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.337s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dds_fastrtps
+[2.337s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_fastrtps_cpp.hpp
+[2.337s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_fastrtps_cpp.hpp
+[2.337s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.337s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.338s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.338s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.338s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.339s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.c
+[2.340s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.340s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.340s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.c
+[2.341s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.c
+[2.341s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_introspection_c.so
+[2.344s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_c.so
+[2.345s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface
+[2.345s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg
+[2.345s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail
+[2.345s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__type_support.cpp
+[2.346s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/msg/detail/arm_status__rosidl_typesupport_introspection_cpp.hpp
+[2.346s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action
+[2.346s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail
+[2.346s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__rosidl_typesupport_introspection_cpp.hpp
+[2.346s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__rosidl_typesupport_introspection_cpp.hpp
+[2.347s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/arm_vision_planning__type_support.cpp
+[2.347s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/include/arm_hand_interface/arm_hand_interface/action/detail/dexterous_hand__type_support.cpp
+[2.350s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_introspection_cpp.so
+[2.353s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_typesupport_cpp.so
+[2.356s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/pythonpath.sh
+[2.356s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/pythonpath.dsv
+[2.356s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info
+[2.357s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.357s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.357s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.357s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.358s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface
+[2.358s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_c.c
+[2.358s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.358s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg
+[2.359s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/_arm_status_s.c
+[2.359s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/_arm_status.py
+[2.359s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg/__init__.py
+[2.360s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/libarm_hand_interface__rosidl_generator_py.so
+[2.360s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action
+[2.360s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_arm_vision_planning_s.c
+[2.360s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_dexterous_hand_s.c
+[2.360s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_arm_vision_planning.py
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/_dexterous_hand.py
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action/__init__.py
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/__init__.py
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/_arm_hand_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.361s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.475s] Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface'...
+[2.476s] Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/action'...
+[2.476s] Listing '/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/msg'...
+[2.489s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.492s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.495s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/local/lib/python3.10/dist-packages/arm_hand_interface/arm_hand_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.500s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/lib/libarm_hand_interface__rosidl_generator_py.so
+[2.501s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/msg/ArmStatus.idl
+[2.501s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/ArmVisionPlanning.idl
+[2.501s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/DexterousHand.idl
+[2.502s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/msg/ArmStatus.msg
+[2.502s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/ArmVisionPlanning.action
+[2.502s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/action/DexterousHand.action
+[2.503s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/package_run_dependencies/arm_hand_interface
+[2.503s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/parent_prefix_path/arm_hand_interface
+[2.503s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/ament_prefix_path.sh
+[2.504s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/ament_prefix_path.dsv
+[2.504s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/path.sh
+[2.504s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/environment/path.dsv
+[2.504s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.bash
+[2.505s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.sh
+[2.505s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.zsh
+[2.505s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/local_setup.dsv
+[2.506s] -- Installing: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.dsv
+[2.506s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/ament_index/resource_index/packages/arm_hand_interface
+[2.506s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cExport.cmake
+[2.507s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cExport-release.cmake
+[2.507s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.507s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.507s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_cppExport.cmake
+[2.508s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.508s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.508s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.509s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cExport-release.cmake
+[2.509s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cExport.cmake
+[2.510s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cExport-release.cmake
+[2.510s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.510s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.511s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cppExport.cmake
+[2.511s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interface__rosidl_typesupport_cppExport-release.cmake
+[2.511s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_pyExport.cmake
+[2.511s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/export_arm_hand_interface__rosidl_generator_pyExport-release.cmake
+[2.512s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake-extras.cmake
+[2.512s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.512s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.512s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.512s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.513s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.513s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.513s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interfaceConfig.cmake
+[2.513s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/cmake/arm_hand_interfaceConfig-version.cmake
+[2.513s] -- Up-to-date: /home/ctg/jaka_HumanArm_v2/install/arm_hand_interface/share/arm_hand_interface/package.xml
+[2.518s] Invoked command in '/home/ctg/jaka_HumanArm_v2/build/arm_hand_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctg/jaka_HumanArm_v2/install/robot_octomap_motion_planning:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_interface:/home/ctg/jaka_HumanArm_v2/install/robot_moveit_config:/home/ctg/jaka_HumanArm_v2/install/robot_description:/home/ctg/jaka_HumanArm_v2/install/robot_control:/home/ctg/jaka_HumanArm_v2/install/arm_hand_interface:/opt/ros/humble:/home/ctg/dev_ws/install/learning_urdf:/home/ctg/dev_ws/install/learning_topic:/home/ctg/dev_ws/install/learning_tf:/home/ctg/dev_ws/install/learning_service:/home/ctg/dev_ws/install/learning_qos:/home/ctg/dev_ws/install/learning_pkg_python:/home/ctg/dev_ws/install/learning_parameter:/home/ctg/dev_ws/install/learning_node:/home/ctg/dev_ws/install/learning_launch:/home/ctg/dev_ws/install/learning_action:/home/ctg/dev_ws/install/learning_gazebo_fortress:/home/ctg/dev_ws/install/learning_gazebo:/home/ctg/dev_ws/install/learning_cv /usr/bin/cmake --install /home/ctg/jaka_HumanArm_v2/build/arm_hand_interface
