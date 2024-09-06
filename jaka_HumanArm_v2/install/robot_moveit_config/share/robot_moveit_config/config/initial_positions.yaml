@@ -1,9 +1,0 @@
-# Default initial positions for urdf's ros2_control fake system
-
-initial_positions:
-  r-j1_right: 0
-  r-j2_right: 0
-  r-j3_right: 0
-  r-j4_right: 0
-  r-j5_right: 0
-  r-j6_right: 0

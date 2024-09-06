@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001703] (-) JobUnselected: {'identifier': 'arm_hand_interface'}
-[0.001884] (-) JobUnselected: {'identifier': 'robot_control'}
-[0.002002] (-) JobUnselected: {'identifier': 'robot_description'}
-[0.002544] (-) JobUnselected: {'identifier': 'robot_moveit_config'}
-[0.002673] (-) JobUnselected: {'identifier': 'robot_moveit_interface'}
-[0.002720] (-) JobUnselected: {'identifier': 'robot_octomap_motion_planning'}
-[0.003393] (-) EventReactorShutdown: {}

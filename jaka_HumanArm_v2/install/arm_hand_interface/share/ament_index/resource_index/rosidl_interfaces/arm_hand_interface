@@ -1,6 +1,0 @@
-action/ArmVisionPlanning.action
-action/ArmVisionPlanning.idl
-action/DexterousHand.action
-action/DexterousHand.idl
-msg/ArmStatus.idl
-msg/ArmStatus.msg
